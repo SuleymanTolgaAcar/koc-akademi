@@ -34,10 +34,3 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.contact-page-image {
-  background: url("../public/images/zyro-image\ \(1\).png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 0 0 16px 16px beige inset;
-}
