@@ -7,24 +7,19 @@ const Kocluk = () => {
     <div className="mt-20">
       <h1 className="text-4xl text-center mt-8 mb-8">Koçluk Hizmeti Al</h1>
       <div className="flex flex-col items-center gap-4">
-        <div className="flex gap-8 px-24 items-center">
-          <p className="px-24 text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
-            dolorum rem beatae autem inventore aspernatur iusto! Impedit
-            suscipit veniam quia voluptas neque recusandae totam aut error!
-            Omnis voluptatibus placeat unde. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Corrupti, dolorum rem beatae autem
-            inventore aspernatur iusto! Impedit suscipit veniam quia voluptas
-            neque recusandae totam aut error! Omnis voluptatibus placeat unde.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
-            dolorum rem beatae autem inventore aspernatur iusto! Impedit
-            suscipit veniam quia voluptas neque recusandae totam aut error!
-            Omnis voluptatibus placeat unde.
+        <div className="flex gap-8 md:px-24 px-12 items-center flex-col md:flex-row">
+          <Image src={koclukImg} alt="kocluk" className="md:order-10" />
+          <p className="md:px-24 text-lg">
+            Seçeceğiniz yks koçunun size bu süreçte kılavuz olduğunu
+            unutmayın.Kendinize uygun kılavuz seçememeniz durumundada hedefinize
+            ulaşmayı beklemek gerçekçi olmayacaktır dolayısıyla doğru yks koçu
+            seçmek sizin için kritiktir.Yanlış karar vermeniz durumunda ise
+            kararınızı telafi etmek için size yardım etceğimizden emin
+            olabilirsiniz.
           </p>
-          <Image src={koclukImg} alt="kocluk" />
         </div>
         <h1 className="text-4xl text-center">Koçlarımız</h1>
-        <div className="grid grid-cols-12 gap-8">
+        <div className="md:grid md:grid-cols-12 flex flex-col gap-8">
           <Card
             name="Ali Yılmaz"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"

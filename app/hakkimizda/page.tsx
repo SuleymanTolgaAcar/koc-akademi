@@ -6,7 +6,7 @@ const About = () => {
     <div className="mt-20 flex flex-col items-center">
       <h1 className="text-4xl">Hakkımızda</h1>
       <Image src={aboutImg} alt="about" className="mt-12 -mb-12" />
-      <p className="pt-20 px-24">
+      <p className="pt-20 md:px-24 px-12">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
         blanditiis! Commodi numquam, repudiandae repellendus tempore eveniet
         minima, porro vel assumenda rerum dolores placeat natus. Vel adipisci

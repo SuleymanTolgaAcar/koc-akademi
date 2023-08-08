@@ -66,18 +66,18 @@ const Iletisim = () => {
   };
 
   return (
-    <div className="h-screen w-full flex items-center justify-center gap-32 pt-20">
+    <div className="w-full flex items-center justify-center pt-20 md:flex-row flex-col">
       <Image
         alt="iletisim"
         src={contactImg}
         width={700}
         height={700}
-        className="rounded-3xl"
+        className="rounded-3xl -mt-8"
       />
       <form
         ref={form}
         onSubmit={handleSubmit}
-        className="bg-green-400 p-8 flex flex-col gap-4 rounded-3xl text-lg w-96"
+        className="bg-green-400 p-8 flex flex-col gap-4 rounded-3xl text-lg md:w-96 w-80"
       >
         <input
           type="text"
