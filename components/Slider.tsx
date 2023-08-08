@@ -5,14 +5,14 @@ import { useState, useEffect } from "react";
 
 const Slider = () => {
   const slides = [
-    "/../public/images/youtube1.jpg",
-    "/../public/images/youtube2.jpg",
-    "/../public/images/boun1.jpg",
-    "/../public/images/itu1.jpg",
-    "/../public/images/boun2.jpg",
-    "/../public/images/itu2.jpg",
-    "/../public/images/boun3.jpg",
-    "/../public/images/itu3.jpg",
+    "/images/youtube1.jpg",
+    "/images/youtube2.jpg",
+    "/images/boun1.jpg",
+    "/images/itu1.jpg",
+    "/images/boun2.jpg",
+    "/images/itu2.jpg",
+    "/images/boun3.jpg",
+    "/images/itu3.jpg",
   ];
 
   const [reRender, setReRender] = useState(false);

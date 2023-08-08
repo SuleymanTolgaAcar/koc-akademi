@@ -4,7 +4,7 @@ import { FormEventHandler, useEffect, useRef, useState } from "react";
 import { toast } from "react-hot-toast";
 import { useSearchParams, useRouter } from "next/navigation";
 import Image from "next/image";
-import contactImg from "../../public/images/contact.svg";
+import contactImg from "@/public/images/contact.svg";
 import emailjs from "@emailjs/browser";
 
 const Iletisim = () => {

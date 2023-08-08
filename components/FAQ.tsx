@@ -1,5 +1,5 @@
 import Image from "next/image";
-import questionImg from "../public/images/question.svg";
+import questionImg from "@/public/images/question.svg";
 
 const FAQ = () => {
   return (

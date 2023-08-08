@@ -1,6 +1,6 @@
 import Card from "@/components/Card";
 import Image from "next/image";
-import koclukImg from "../../public/images/kocluk.svg";
+import koclukImg from "@/public/images/kocluk.svg";
 
 const Kocluk = () => {
   return (
@@ -32,7 +32,7 @@ const Kocluk = () => {
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
-            image="/../public/images/man.avif"
+            image="/images/man.avif"
           />
           <Card
             name="Ali Yılmaz"
@@ -41,7 +41,7 @@ const Kocluk = () => {
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
-            image="/../public/images/man.avif"
+            image="/images/man.avif"
           />
           <Card
             name="Ali Yılmaz"
@@ -50,7 +50,7 @@ const Kocluk = () => {
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
-            image="/../public/images/man.avif"
+            image="/images/man.avif"
           />
           <Card
             name="Ali Yılmaz"
@@ -59,7 +59,7 @@ const Kocluk = () => {
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
-            image="/../public/images/man.avif"
+            image="/images/man.avif"
           />
           <Card
             name="Ali Yılmaz"
@@ -68,7 +68,7 @@ const Kocluk = () => {
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
-            image="/../public/images/man.avif"
+            image="/images/man.avif"
           />
           <Card
             name="Ali Yılmaz"
@@ -77,7 +77,7 @@ const Kocluk = () => {
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
-            image="/../public/images/man.avif"
+            image="/images/man.avif"
           />
           <Card
             name="Ali Yılmaz"
@@ -86,7 +86,7 @@ const Kocluk = () => {
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
-            image="/../public/images/man.avif"
+            image="/images/man.avif"
           />
           <Card
             name="Ali Yılmaz"
@@ -95,7 +95,7 @@ const Kocluk = () => {
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
-            image="/../public/images/man.avif"
+            image="/images/man.avif"
           />
         </div>
       </div>

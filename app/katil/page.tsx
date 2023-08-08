@@ -1,5 +1,5 @@
 import Image from "next/image";
-import joinImg from "../../public/images/join.svg";
+import joinImg from "@/public/images/join.svg";
 import Link from "next/link";
 
 const Join = () => {
