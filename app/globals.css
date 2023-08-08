@@ -30,7 +30,7 @@ body {
 }
 
 .home-bg {
-  background: url("../public/images/bg2.jpg");
+  background: url("../public/images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }

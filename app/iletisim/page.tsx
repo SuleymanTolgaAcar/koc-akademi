@@ -1,20 +1,22 @@
 "use client";
 
-import { MouseEventHandler, useEffect, useState } from "react";
+import { FormEventHandler, useEffect, useRef, useState } from "react";
 import { toast } from "react-hot-toast";
 import { useSearchParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import contactImg from "../../public/images/contact.svg";
+import emailjs from "@emailjs/browser";
 
 const Iletisim = () => {
   const params = useSearchParams();
   const router = useRouter();
+  const form = useRef(null);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [subject, setSubject] = useState("");
-  const [mainText, setMainText] = useState("");
+  const [message, setmessage] = useState("");
 
   useEffect(() => {
     switch (params.get("konu")) {
@@ -33,33 +35,32 @@ const Iletisim = () => {
     }
   }, [params]);
 
-  const handleSubmit: MouseEventHandler<HTMLButtonElement> = async (e) => {
+  const handleSubmit: FormEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
 
-    if (!name || !email || !phone || !subject || subject === "" || !mainText)
+    if (!name || !email || !phone || !message)
       return toast.error("Lütfen tüm alanları doldurunuz.");
 
-    fetch("/api/send-mail", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        name,
-        email,
-        phone,
-        subject,
-        mainText,
-      }),
-    })
+    if (!email.includes("@"))
+      return toast.error("Lütfen geçerli bir e-posta adresi giriniz.");
+    if (!subject || subject === "")
+      return toast.error("Lütfen bir konu seçiniz.");
+
+    if (!form.current) return;
+
+    emailjs
+      .sendForm(
+        "service_gygg027",
+        "template_eecbh28",
+        form.current,
+        "S-q_lTV6lySR1FGRq"
+      )
       .then((res) => {
-        if (res.status === 200 || res.status === 500) {
-          toast.success("Mesajınız başarıyla gönderildi.");
-          router.push("/");
-        } else {
-          toast.error("Mesajınız gönderilirken bir hata oluştu.");
-        }
+        toast.success("Mesajınız başarıyla gönderildi.");
+        router.push("/");
       })
       .catch((err) => {
-        toast.error("Mesajınız gönderilirken bir hata oluştu.");
+        toast.error("Bir hata oluştu. Lütfen tekrar deneyin.");
         console.log(err);
       });
   };
@@ -73,7 +74,11 @@ const Iletisim = () => {
         height={700}
         className="rounded-3xl"
       />
-      <form className="bg-green-400 p-8 flex flex-col gap-4 rounded-3xl text-lg w-96">
+      <form
+        ref={form}
+        onSubmit={handleSubmit}
+        className="bg-green-400 p-8 flex flex-col gap-4 rounded-3xl text-lg w-96"
+      >
         <input
           type="text"
           name="name"
@@ -116,18 +121,17 @@ const Iletisim = () => {
           <option value="Diğer">Diğer</option>
         </select>
         <textarea
-          name="main"
-          id="main-text"
+          name="message"
+          id="message"
           cols={30}
           rows={8}
           placeholder="Mesajınız"
-          value={mainText}
-          onChange={(e) => setMainText(e.target.value)}
+          value={message}
+          onChange={(e) => setmessage(e.target.value)}
           className="rounded-md py-2 px-4 font-light"
         ></textarea>
         <button
           type="submit"
-          onClick={handleSubmit}
           className="p-4 rounded-md bg-orange-400 text-xl transition-all duration-300 transform hover:scale-105"
         >
           Gönder
