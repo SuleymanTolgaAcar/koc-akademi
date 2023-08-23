@@ -3,18 +3,21 @@
 import FAQ from "@/components/FAQ";
 import Prices from "@/components/Prices";
 import Slider from "@/components/Slider";
+import { useEffect } from "react";
 import { BsArrowUpCircleFill } from "react-icons/bs";
 import { IoIosArrowDropdown } from "react-icons/io";
 
 export default function Home() {
-  window?.addEventListener("scroll", () => {
-    const scrollTopButton = document.querySelector("#scrollTopButton");
-    if (window.scrollY > 760) {
-      scrollTopButton?.classList.remove("hidden");
-    } else {
-      scrollTopButton?.classList.add("hidden");
-    }
-  });
+  useEffect(() => {
+    window?.addEventListener("scroll", () => {
+      const scrollTopButton = document.querySelector("#scrollTopButton");
+      if (window.scrollY > 760) {
+        scrollTopButton?.classList.remove("hidden");
+      } else {
+        scrollTopButton?.classList.add("hidden");
+      }
+    });
+  }, []);
 
   return (
     <div className="flex flex-col items-center">
