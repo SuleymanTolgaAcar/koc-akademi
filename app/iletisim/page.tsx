@@ -66,7 +66,7 @@ const Iletisim = () => {
   };
 
   return (
-    <div className="w-full flex items-center justify-center pt-20 md:flex-row flex-col">
+    <div className="w-full flex items-center justify-center pt-20 md:flex-row md:gap-32 flex-col">
       <Image
         alt="iletisim"
         src={contactImg}

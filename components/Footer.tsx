@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   AiOutlineInstagram,
   AiOutlineLinkedin,
@@ -6,24 +7,27 @@ import {
 
 const Footer = () => {
   return (
-    <div className="border-t-2 border-green-400 w-full mt-20 py-4 flex gap-4 items-center px-8 justify-between">
+    <div className="border-t-2 border-green-400 w-full mt-20 py-4 flex gap-4 items-center pl-8 pr-20 justify-between">
       <div className="flex gap-4 flex-col md:flex-row">
         <a
-          href="youtube.com"
+          href="https://www.youtube.com/@mkaanguney"
+          target="_blank"
           className="flex gap-2 items-center transition-all duration-300 transform hover:scale-105 text-red-500"
         >
           <AiOutlineYoutube size={30} />
           <p className="">Youtube</p>
         </a>
         <a
-          href="linkedin.com"
+          href="https://www.linkedin.com/in/musa-kaan-guney-08aa98233/"
+          target="_blank"
           className="flex gap-2 items-center transition-all duration-300 transform hover:scale-105 text-blue-500"
         >
           <AiOutlineLinkedin size={30} />
           <p className="">Linkedin</p>
         </a>
         <a
-          href="instagram.com"
+          href="https://www.instagram.com/musakaangny/"
+          target="_blank"
           className="flex gap-2 items-center transition-all duration-300 transform hover:scale-105 text-pink-600"
         >
           <AiOutlineInstagram size={30} />
@@ -31,8 +35,8 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex gap-4 flex-col md:flex-row">
-        <span>Hakkımızda</span>
-        <span>Telif Hakları</span>
+        <Link href="/hakkimizda">Hakkımızda</Link>
+        <Link href="/copyright">Telif Hakları</Link>
       </div>
     </div>
   );
