@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 
@@ -34,17 +35,19 @@ const Slider = () => {
           <MdArrowBackIosNew size={30} />
         </button>
         {slides.map((image, index) => (
-          <Image
-            alt="slider image"
-            src={image}
-            id={index.toString() + "image"}
-            key={index.toString()}
-            width={600}
-            height={500}
-            className={`rounded-lg shadow-md ${
-              currentSlide == index ? "block" : "hidden"
-            }`}
-          />
+          <a href="https://www.youtube.com/@mkaanguney" target="_blank">
+            <Image
+              alt="slider image"
+              src={image}
+              id={index.toString() + "image"}
+              key={index.toString()}
+              width={600}
+              height={500}
+              className={`rounded-lg shadow-md ${
+                currentSlide == index ? "block" : "hidden"
+              }`}
+            />
+          </a>
         ))}
         <button
           onClick={() => {
