@@ -132,7 +132,7 @@ const Iletisim = () => {
         ></textarea>
         <button
           type="submit"
-          className="p-4 rounded-md bg-orange-400 text-xl transition-all duration-300 transform hover:scale-105"
+          className="p-4 rounded-md bg-green-100 text-xl transition-all duration-300 transform hover:scale-105"
         >
           Gönder
         </button>

@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({ children }) => {
 
   return (
     <nav
-      className={`${isMenuOpen && "h-48"} ${
+      className={`${isMenuOpen && "h-60"} ${
         !isMenuOpen && "h-16"
       } absolute top-0 left-0 right-0 md:h-20 z-10 backdrop-blur-md transition-all duration-300 ease-in-out`}
       onBlur={(e) => {
@@ -30,16 +30,21 @@ const Navbar: React.FC<NavbarProps> = ({ children }) => {
       }}
     >
       <div
-        className={`h-full flex items-start md:items-center md:pt-0 pt-3 relative whitespace-nowrap ${
+        className={`h-full w-full flex items-start md:items-center md:pt-0 pt-3 relative whitespace-nowrap ${
           isMenuOpen && "items-start"
         }`}
         id="nav-container"
       >
         <Link
           href="/"
-          className="-mt-8 ml-2 md:-mt-24 w-16 h-16 md:w-full md:h-full"
+          className="absolute top-1 left-2 w-16 h-16 md:w-fit md:h-fit"
         >
-          <Image alt="logo" src="/images/logo.png" width={150} height={150} />
+          <Image
+            alt="logo"
+            src="/images/main_logo.png"
+            width={150}
+            height={150}
+          />
         </Link>
         <div
           className={`${isMenuOpen && "flex absolute right-0 items-end top-16"} 
@@ -47,6 +52,9 @@ const Navbar: React.FC<NavbarProps> = ({ children }) => {
             !isMenuOpen && "hidden"
           } md:items-center md:gap-4 md:ml-auto md:mr-6 md:text-xl md:flex flex-col md:flex-row ml-4`}
         >
+          <NavButton href="/">
+            Anasayfa <GiPolarStar size={20} className="ms-2 md:hidden" />
+          </NavButton>
           <NavButton href="/hakkimizda">
             Hakkımızda <GiPolarStar size={20} className="ms-2 md:hidden" />
           </NavButton>
@@ -61,7 +69,7 @@ const Navbar: React.FC<NavbarProps> = ({ children }) => {
         </div>
         <Link
           href="/iletisim"
-          className="rounded-full md:px-8 md:py-3 px-5 py-2 bg-green-400 transition-all duration-300 transform hover:scale-110 text-md md:text-xl md:mr-6 ml-auto mr-4"
+          className="rounded-full md:px-8 md:py-3 px-5 py-2 bg-green-400 transition-all duration-300 transform hover:scale-110 text-md md:text-xl md:mr-6 ml-auto md:ml-4 mr-4"
         >
           Bize Ulaşın
         </Link>

@@ -19,7 +19,7 @@ const PriceCard: React.FC<PriceCardProps> = ({
       <h2 className="text-3xl border-b-2 border-green-100 pb-2 px-20">
         {title}
       </h2>
-      <h3 className="text-4xl">{price}</h3>
+      <h3 className="text-4xl">{price}₺</h3>
       <p className="text-gray-500 px-8">{description}</p>
       <ol className="flex flex-col gap-2">
         {features.map((feature, index) => (

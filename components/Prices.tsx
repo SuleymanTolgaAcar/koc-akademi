@@ -8,7 +8,7 @@ const Prices = () => {
       <div className="flex items-center justify-center gap-8 flex-wrap">
         <PriceCard
           title="1 Aylık"
-          price="500 - 1000 TL"
+          price="500 - 1000"
           description="1 ay boyunca haftada 1 gün 1 saat olmak üzere toplam 4 saatlik koçluk.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ut
         esse optio quam."
@@ -21,8 +21,8 @@ const Prices = () => {
           ]}
         />
         <PriceCard
-          title="1 Aylık"
-          price="500 - 1000 TL"
+          title="3 Aylık"
+          price="1350 - 2700"
           description="1 ay boyunca haftada 1 gün 1 saat olmak üzere toplam 4 saatlik koçluk.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ut
         esse optio quam."
@@ -35,8 +35,8 @@ const Prices = () => {
           ]}
         />
         <PriceCard
-          title="1 Aylık"
-          price="500 - 1000 TL"
+          title="6 Aylık"
+          price="2400 - 4800"
           description="1 ay boyunca haftada 1 gün 1 saat olmak üzere toplam 4 saatlik koçluk.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ut
         esse optio quam."
@@ -50,8 +50,8 @@ const Prices = () => {
           ]}
         />
         <PriceCard
-          title="1 Aylık"
-          price="500 - 1000 TL"
+          title="9 Aylık"
+          price="3150 - 6300"
           description="1 ay boyunca haftada 1 gün 1 saat olmak üzere toplam 4 saatlik koçluk.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ut
         esse optio quam."

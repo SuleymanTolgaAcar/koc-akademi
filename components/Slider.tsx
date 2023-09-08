@@ -3,24 +3,25 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { BsFillPlayFill } from "react-icons/bs";
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 
 const Slider = () => {
   const slides = [
-    "/images/youtube1.jpg",
-    "/images/youtube2.jpg",
-    "/images/boun1.jpg",
-    "/images/itu1.jpg",
-    "/images/boun2.jpg",
-    "/images/itu2.jpg",
-    "/images/boun3.jpg",
-    "/images/itu3.jpg",
+    {
+      image: "/images/youtube1.jpg",
+      link: "https://www.youtube.com/watch?v=CRT-tfOYdZ8&t=27s",
+    },
+    {
+      image: "/images/youtube2.jpg",
+      link: "https://www.youtube.com/watch?v=6jj2V6YkjY4&t=49s",
+    },
   ];
   const [currentSlide, setCurrentSlide] = useState(0);
 
   return (
     <div className="md:mt-16 relative w-full flex flex-col items-center">
-      <h1 className="text-3xl mt-16">Resim Galerisi</h1>
+      <h1 className="text-3xl mt-16">Bizi Youtube'dan Takip Edin</h1>
       <div className="flex items-center justify-center md:w-3/4 w-full px-8 relative md:h-[500px] h-[300px]">
         <button
           onClick={() => {
@@ -34,19 +35,23 @@ const Slider = () => {
         >
           <MdArrowBackIosNew size={30} />
         </button>
-        {slides.map((image, index) => (
-          <a href="https://www.youtube.com/@mkaanguney" target="_blank">
+        {slides.map((item, index) => (
+          <a
+            href={item.link}
+            target="_blank"
+            className={`relative ${currentSlide == index ? "block" : "hidden"}`}
+            key={index.toString()}
+          >
             <Image
               alt="slider image"
-              src={image}
+              src={item.image}
               id={index.toString() + "image"}
               key={index.toString()}
               width={600}
               height={500}
-              className={`rounded-lg shadow-md ${
-                currentSlide == index ? "block" : "hidden"
-              }`}
+              className="rounded-lg shadow-md"
             />
+            <BsFillPlayFill size={100} className="absolute top-1/2 left-1/2" />
           </a>
         ))}
         <button

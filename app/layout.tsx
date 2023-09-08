@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={oswald.className}>
         <Navbar></Navbar>
-        <div className="">{children}</div>
+        <div className="min-h-screen">{children}</div>
         <Toaster />
         <Footer />
       </body>

@@ -10,12 +10,12 @@ const Kocluk = () => {
         <div className="flex gap-8 md:px-24 px-12 items-center flex-col md:flex-row">
           <Image src={koclukImg} alt="kocluk" className="md:order-10" />
           <p className="md:px-24 text-lg">
-            Seçeceğiniz yks koçunun size bu süreçte kılavuz olduğunu
-            unutmayın.Kendinize uygun kılavuz seçememeniz durumundada hedefinize
-            ulaşmayı beklemek gerçekçi olmayacaktır dolayısıyla doğru yks koçu
-            seçmek sizin için kritiktir.Yanlış karar vermeniz durumunda ise
-            kararınızı telafi etmek için size yardım etceğimizden emin
-            olabilirsiniz.
+            Seçeceğiniz YKS koçunun, bu süreçte size rehberlik ettiğini
+            unutmayın. Kendinize uygun bir rehber seçememeniz durumunda,
+            hedefinize ulaşmayı beklemek gerçekçi olmayacaktır. Dolayısıyla,
+            doğru YKS koçu seçmek sizin için kritik öneme sahiptir. Yanlış bir
+            karar verirseniz, bu kararı telafi etmeniz için size yardımcı
+            olacağımızdan emin olabilirsiniz.
           </p>
         </div>
         <h1 className="text-4xl text-center">Koçlarımız</h1>
@@ -24,6 +24,8 @@ const Kocluk = () => {
             name="Ali Yılmaz"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 10.su"
+            price={500}
+            rating={4.5}
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
@@ -33,6 +35,8 @@ const Kocluk = () => {
             name="Ali Yılmaz"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 10.su"
+            price={500}
+            rating={4.5}
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
@@ -42,6 +46,8 @@ const Kocluk = () => {
             name="Ali Yılmaz"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 10.su"
+            price={500}
+            rating={4.5}
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
@@ -51,6 +57,8 @@ const Kocluk = () => {
             name="Ali Yılmaz"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 10.su"
+            price={500}
+            rating={4.5}
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
@@ -60,6 +68,8 @@ const Kocluk = () => {
             name="Ali Yılmaz"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 10.su"
+            price={500}
+            rating={4.5}
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
@@ -69,6 +79,8 @@ const Kocluk = () => {
             name="Ali Yılmaz"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 10.su"
+            price={500}
+            rating={4.5}
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
@@ -78,6 +90,8 @@ const Kocluk = () => {
             name="Ali Yılmaz"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 10.su"
+            price={500}
+            rating={4.5}
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
@@ -87,6 +101,8 @@ const Kocluk = () => {
             name="Ali Yılmaz"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 10.su"
+            price={500}
+            rating={4.5}
             description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
         massa luctus augue, quis lacinia nisl velit id lorem."
