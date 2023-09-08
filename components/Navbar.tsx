@@ -53,18 +53,18 @@ const Navbar: React.FC<NavbarProps> = ({ children }) => {
           } md:items-center md:gap-4 md:ml-auto md:mr-6 md:text-xl md:flex flex-col md:flex-row ml-4`}
         >
           <NavButton href="/">
-            Anasayfa <GiPolarStar size={20} className="ms-2 md:hidden" />
-          </NavButton>
-          <NavButton href="/hakkimizda">
-            Hakkımızda <GiPolarStar size={20} className="ms-2 md:hidden" />
+            Anasayfa <GiPolarStar size={20} className="md:hidden" />
           </NavButton>
           <NavButton href="/kocluk">
             Koçluk Al
-            <GiPolarStar size={20} className="ms-2 md:hidden" />
+            <GiPolarStar size={20} className="md:hidden" />
           </NavButton>
           <NavButton href="/katil">
             Aramıza Katıl
-            <GiPolarStar size={20} className="ms-2 md:hidden" />
+            <GiPolarStar size={20} className="md:hidden" />
+          </NavButton>
+          <NavButton href="/hakkimizda">
+            Hakkımızda <GiPolarStar size={20} className="md:hidden" />
           </NavButton>
         </div>
         <Link

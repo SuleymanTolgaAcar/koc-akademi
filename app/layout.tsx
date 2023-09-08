@@ -5,6 +5,7 @@ import { Toaster } from "react-hot-toast";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ScrollTopButton from "@/components/ScrollTopButton";
 
 const inter = Inter({ subsets: ["latin"] });
 const oswald = Oswald({ subsets: ["latin"] });
@@ -23,7 +24,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={oswald.className}>
         <Navbar></Navbar>
-        <div className="min-h-screen">{children}</div>
+        <div className="min-h-screen w-full h-full flex flex-col">
+          {children}
+          <ScrollTopButton />
+        </div>
         <Toaster />
         <Footer />
       </body>

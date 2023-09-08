@@ -7,7 +7,7 @@ const Kocluk = () => {
     <div className="mt-20">
       <h1 className="text-4xl text-center mt-8 mb-8">Koçluk Hizmeti Al</h1>
       <div className="flex flex-col items-center gap-4">
-        <div className="flex gap-8 md:px-24 px-12 items-center flex-col md:flex-row">
+        <div className="flex gap-8 md:px-24 px-12 items-center flex-col md:flex-row md:mb-20">
           <Image src={koclukImg} alt="kocluk" className="md:order-10" />
           <p className="md:px-24 text-lg">
             Seçeceğiniz YKS koçunun, bu süreçte size rehberlik ettiğini

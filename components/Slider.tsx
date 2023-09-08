@@ -1,9 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { useState, useEffect } from "react";
-import { BsFillPlayFill } from "react-icons/bs";
+import { useState } from "react";
+import { AiFillYoutube } from "react-icons/ai";
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 
 const Slider = () => {
@@ -39,7 +38,9 @@ const Slider = () => {
           <a
             href={item.link}
             target="_blank"
-            className={`relative ${currentSlide == index ? "block" : "hidden"}`}
+            className={`relative group flex items-center justify-center ${
+              currentSlide == index ? "block" : "hidden"
+            }`}
             key={index.toString()}
           >
             <Image
@@ -49,9 +50,13 @@ const Slider = () => {
               key={index.toString()}
               width={600}
               height={500}
-              className="rounded-lg shadow-md"
+              className="rounded-lg shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out"
             />
-            <BsFillPlayFill size={100} className="absolute top-1/2 left-1/2" />
+            <div className="bg-black absolute top-0 bottom-0 left-0 right-0 opacity-0 group-hover:opacity-25  transition-all duration-300 ease-in-out rounded-lg"></div>
+            <AiFillYoutube
+              size={80}
+              className="opacity-0 text-red-600 group-hover:opacity-100 transition-all duration-300 ease-in-out absolute"
+            />
           </a>
         ))}
         <button
