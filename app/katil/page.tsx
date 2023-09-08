@@ -42,7 +42,7 @@ const Join = () => {
       </p>
       <Link
         href="/iletisim?konu=katil"
-        className="text-2xl bg-green-400 rounded-full py-4 md:px-32 px-24 transform hover:scale-110 transition duration-300 ease-in-out mt-12 -mb-8"
+        className="text-2xl bg-green-400 rounded-full py-4 md:px-32 px-24 transform hover:scale-110 transition duration-300 ease-in-out mt-12 md:-mb-8"
       >
         {" "}
         İletişime Geç

@@ -1,20 +1,27 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { BsArrowUpCircleFill } from "react-icons/bs";
 
 const ScrollTopButton = () => {
+  const path = usePathname();
+
   useEffect(() => {
+    const scrollTopButton = document.querySelector("#scrollTopButton");
     window?.addEventListener("scroll", () => {
-      const scrollTopButton = document.querySelector("#scrollTopButton");
       if (!scrollTopButton) return;
+      if (document.body.scrollHeight < 1500) return;
       if (window.scrollY > 100) {
         scrollTopButton?.classList.remove("hidden");
       } else {
         scrollTopButton?.classList.add("hidden");
       }
     });
-  }, []);
+    return () => {
+      window?.removeEventListener("scroll", () => {});
+    };
+  }, [path]);
 
   return (
     <button
