@@ -11,11 +11,9 @@ const Kocluk = () => {
           <Image src={koclukImg} alt="kocluk" className="md:order-10" />
           <p className="md:px-24 text-lg">
             Seçeceğiniz YKS koçunun, bu süreçte size rehberlik ettiğini
-            unutmayın. Kendinize uygun bir rehber seçememeniz durumunda,
-            hedefinize ulaşmayı beklemek gerçekçi olmayacaktır. Dolayısıyla,
-            doğru YKS koçu seçmek sizin için kritik öneme sahiptir. Yanlış bir
-            karar verirseniz, bu kararı telafi etmeniz için size yardımcı
-            olacağımızdan emin olabilirsiniz.
+            unutmayın. Kendinize uygun bir rehber seçmeniz hedefinize bir adım
+            daha yaklaşmanıza yardımcı olur. Dolayısıyla, doğru YKS koçunu
+            seçmek sizin için kritik öneme sahiptir.
           </p>
         </div>
         <h1 className="text-4xl text-center">Koçlarımız</h1>
