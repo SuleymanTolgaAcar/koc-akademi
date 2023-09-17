@@ -26,7 +26,7 @@ const FAQ = () => {
             setActives={setActives}
             index={1}
             question="YKS koçu ile sınava hazırlanmam, benim için ne kadar yararlı olur?"
-            answer="Sınava hazırlanırken istediğiniz hedefe ulaşmak için planlı veya plansız bir şekilde süreç içinde çaba göstereceksiniz. Ancak doğru bir işleyiş içerisinde çaba göstermezseniz, istediğiniz hedefe ulaşmanız sizin için daha zorlayıcı olabilir. YKS koçu ile bu süreçte, çoğu kişiden daha doğru bir işleyiş biçimiyle çaba göstermiş ve kendini kanıtlamış kişilerin verimli çalışma ile ilgili edindikleri tecrübeleri öğrenirsiniz."
+            answer="Sınava hazırlanırken istediğiniz hedefe ulaşmak için planlı veya plansız bir şekilde süreç içinde çaba göstereceksiniz. Ancak doğru bir işleyiş içerisinde çaba göstermezseniz, istediğiniz hedefe ulaşmanız sizin için daha zorlayıcı olabilir. YKS koçu ile bu süreçte, çoğu kişiden daha doğru bir işleyiş biçimiyle çaba göstermiş ve kendini kanıtlamış kişilerin verimli çalışma ile ilgili edindikleri tecrübeleri öğrenirsiniz."
           />
           <Question
             actives={actives}

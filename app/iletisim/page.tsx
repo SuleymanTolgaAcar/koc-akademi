@@ -38,7 +38,7 @@ const Iletisim = () => {
   const handleSubmit: FormEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
 
-    if (!name || !email || !phone || !message)
+    if (!name || !email || !message)
       return toast.error("Lütfen tüm alanları doldurunuz.");
 
     if (!email.includes("@"))

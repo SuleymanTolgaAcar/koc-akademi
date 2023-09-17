@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 const oswald = Oswald({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Atlas Akademi",
+  title: "YKS Atlası",
   description: "YKS Koçluk Hizmeti",
 };
 

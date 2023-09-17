@@ -26,26 +26,30 @@ const Question: React.FC<QuestionProps> = ({
           return [...prev, index];
         });
       }}
-      className={`w-full rounded-xl p-4 bg-green-100 shadow-md cursor-pointer overflow-hidden transition-all duration-500 linear ${
-        actives.includes(index)
-          ? "bg-green-200 max-h-[1000px]"
-          : "max-h-24 md:max-h-20"
+      className={`w-full rounded-xl px-6 py-4 bg-green-100 shadow-md cursor-pointer overflow-hidden transition-all duration-500 ease-in-out ${
+        actives.includes(index) ? "bg-green-200" : ""
       }`}
     >
-      <h2 className="text-xl mb-2 flex items-center p-2 gap-4">
+      <div
+        className={`flex items-center -p-2 gap-4 transition-all duration-300 ease-in-out ${
+          actives.includes(index) ? "mb-4" : "mb-0"
+        }`}
+      >
         <BsQuestionCircleFill size={30} />
-        {question}
+        <h1 className="text-xl w-full">{question}</h1>
         <IoIosArrowDown
           size={30}
           className={`${
             actives.includes(index) && "rotate-180"
           } transition-all duration-500 ease-in-out ms-auto`}
         />
-      </h2>
+      </div>
       <p
         className={`${
-          actives.includes(index) ? "max-h-[1000px]" : "max-h-0"
-        } overflow-hidden py-2 px-4 transition-all duration-500 linear`}
+          actives.includes(index)
+            ? "max-h-[1000px] opacity-100"
+            : "max-h-0 opacity-0"
+        } overflow-hidden transition-all duration-500 ease-in-out`}
       >
         {answer}
       </p>
