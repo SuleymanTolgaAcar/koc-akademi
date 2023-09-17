@@ -30,7 +30,7 @@ const Slider = () => {
               setCurrentSlide(currentSlide - 1);
             }
           }}
-          className="absolute md:left-5 left-0"
+          className="absolute md:left-5 left-1"
         >
           <MdArrowBackIosNew size={30} />
         </button>
@@ -38,7 +38,7 @@ const Slider = () => {
           <a
             href={item.link}
             target="_blank"
-            className={`relative group flex items-center justify-center ${
+            className={`relative group flex items-center justify-center w-11/12 md:w-fit ${
               currentSlide == index ? "block" : "hidden"
             }`}
             key={index.toString()}
@@ -67,7 +67,7 @@ const Slider = () => {
               setCurrentSlide(currentSlide + 1);
             }
           }}
-          className="absolute md:right-5 right-0"
+          className="absolute md:right-5 right-1"
         >
           <MdArrowForwardIos size={30} />
         </button>
