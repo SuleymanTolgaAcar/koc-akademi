@@ -21,7 +21,7 @@ export default function Home() {
         <button
           onClick={() =>
             scrollTo({
-              top: 760,
+              top: window.innerHeight + 20,
               behavior: "smooth",
             })
           }
