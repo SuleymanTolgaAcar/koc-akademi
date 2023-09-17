@@ -7,38 +7,14 @@ const Join = () => {
     <div className="mt-20 flex flex-col items-center">
       <h1 className="text-4xl">Aramıza Katıl</h1>
       <Image src={joinImg} alt="clouds" className="mt-12 -mb-12" />
-      <p className="pt-20 md:px-24 px-12">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-        blanditiis! Commodi numquam, repudiandae repellendus tempore eveniet
-        minima, porro vel assumenda rerum dolores placeat natus. Vel adipisci
-        nesciunt hic vitae recusandae!Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Sit, blanditiis! Commodi numquam, repudiandae
-        repellendus tempore eveniet minima, porro vel assumenda rerum dolores
-        placeat natus. Vel adipisci nesciunt hic vitae recusandae! Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Sit, blanditiis! Commodi
-        numquam, repudiandae repellendus tempore eveniet minima, porro vel
-        assumenda rerum dolores placeat natus. Vel adipisci nesciunt hic vitae
-        recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Sit, blanditiis! Commodi numquam, repudiandae repellendus tempore
-        eveniet minima, porro vel assumenda rerum dolores placeat natus. Vel
-        adipisci nesciunt hic vitae recusandae! Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Sit, blanditiis! Commodi numquam,
-        repudiandae repellendus tempore eveniet minima, porro vel assumenda
-        rerum dolores placeat natus. Vel adipisci nesciunt hic vitae recusandae!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-        blanditiis! Commodi numquam, repudiandae repellendus tempore eveniet
-        minima, porro vel assumenda rerum dolores placeat natus. Vel adipisci
-        nesciunt hic vitae recusandae! Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Sit, blanditiis! Commodi numquam, repudiandae
-        repellendus tempore eveniet minima, porro vel assumenda rerum dolores
-        placeat natus. Vel adipisci nesciunt hic vitae recusandae! Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Sit, blanditiis! Commodi
-        numquam, repudiandae repellendus tempore eveniet minima, porro vel
-        assumenda rerum dolores placeat natus. Vel adipisci nesciunt hic vitae
-        recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Sit, blanditiis! Commodi numquam, repudiandae repellendus tempore
-        eveniet minima, porro vel assumenda rerum dolores placeat natus. Vel
-        adipisci nesciunt hic vitae recusandae!
+      <p className="pt-20 md:px-24 px-12 text-center">
+        Yükseköğretime Geçiş Sınavı (YKS) öğrencilerine destek olacak bir ekibin
+        parçası olmaya ne dersiniz? Siz de YKS sınavına girecek öğrencilerin
+        potansiyelini en üst düzeye çıkarmalarına yardımcı olmak istiyorsanız,
+        aramıza katılın! <br />
+        Unutmayın, bir öğrencinin hayatındaki en önemli dönemeçlerden birine
+        rehberlik etmek, onların geleceğini şekillendirmek anlamına gelir. Siz
+        de bu önemli süreçte yer alarak öğrencilere ışık olabilirsiniz.
       </p>
       <Link
         href="/iletisim?konu=katil"
