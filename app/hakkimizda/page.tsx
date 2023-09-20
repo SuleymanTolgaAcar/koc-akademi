@@ -19,7 +19,7 @@ const About = () => {
         kurduğumuz bu organizasyonla, kolay arayüze sahip bir internet sitesi ve
         kaliteli kadromuzla karşınızdayız.
       </p>
-      <div className="md:grid md:grid-cols-12 flex flex-col gap-8 w-full px-20 mt-20">
+      <div className="md:grid md:grid-cols-12 flex flex-col items-center md:items-stretch gap-8 mt-20">
         <Card
           founder
           name="Musa Kaan Güney"
@@ -27,7 +27,7 @@ const About = () => {
           title="Genel Direktör"
           price={0}
           rating={5}
-          description=""
+          description="Ben Musa Kaan. YKS 2021’de sayısal alanında Türkiye 173.sü oldum ve Hacettepe Tıp(İngilizce) bölümünü kazandım. Sonrasında Hacettepe’de hazırlık eğitiminden sonra Boğaziçi Üniversitesi Bilgisayar Mühendisliği bölümüne yatay geçiş yaptım. Daha öncesinde de bireysel olarak bana ulaşan öğrencilere neler yapmaları gerektiği hakkında yardımcı olurken bunu daha profesyonel şekilde ilerletmek amacıyla bu platformun genel yönetiminden sorumlu olacağım."
           image="bg-kaan"
         />
         <Card
