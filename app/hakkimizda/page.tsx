@@ -1,3 +1,4 @@
+import Card from "@/components/Card";
 import aboutImg from "@/public/images/about.svg";
 import Image from "next/image";
 
@@ -17,16 +18,39 @@ const About = () => {
         zor bir yönetici kadrosu yerine, kolayca bize ulaşacağınız şekilde
         kurduğumuz bu organizasyonla, kolay arayüze sahip bir internet sitesi ve
         kaliteli kadromuzla karşınızdayız.
-        <br />
-        <br />
-        Musa Kaan Güney: Boğaziçi Bilgisayar Mühendisliği. Genel Direktör
-        <br />
-        Süleyman Tolga Acar: Boğaziçi Bilgisayar Mühendisliği. Website
-        Geliştiricisi ve Teknik Destek
-        <br />
-        Bedirhan Gençaslan: Hacettepe Bilgisayar Mühendisliği. Mali İşler
-        Yönetimi ve Koç İletişim Direktörü
       </p>
+      <div className="md:grid md:grid-cols-12 flex flex-col gap-8 w-full px-20 mt-20">
+        <Card
+          founder
+          name="Musa Kaan Güney"
+          department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
+          title="Genel Direktör"
+          price={0}
+          rating={5}
+          description=""
+          image="bg-kaan"
+        />
+        <Card
+          founder
+          name="Süleyman Tolga Acar"
+          department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
+          title="Website Geliştiricisi ve Teknik Destek"
+          price={0}
+          rating={5}
+          description="Ben Tolga, Boğaziçi Bilgisayar Mühendisliği 2. sınıf öğrencisiyim. YKS 2021'de sayısalda 253, YKS 2022'de EA'da 21, dilde 44. oldum. Üniversite sınavını iki defa tecrübe etmiş ve istediği derecelere ulaşmış biri olarak sizlerin de hedeflerinize ulaşabilmenize yardımcı olmak için kurduğumuz bu platformda genel olarak işlerin teknik kısmıyla ben ilgileniyorum."
+          image="bg-tolga"
+        />
+        <Card
+          founder
+          name="Bedirhan Gençaslan"
+          department="Hacettepe Üniversitesi Bilgisayar Mühendisliği"
+          title="Mali İşler Yönetimi ve Koç İletişim Direktörü"
+          price={0}
+          rating={5}
+          description="Merhaba ben Bedirhan 2021 YKS'de sayısalda hamda 3520. yerleştirmede ise 4361. oldum, malumunuz bilgisayar mühendisliği okuyorum ancak bu bölümü seçmeden önce asıl amacım iş girişiminde bulunmaktı ve hala daha çabam bu yönde. Bu işi düşünürken bu iş için en uygun yetenek ve özveriyi göstereceğini düşündüğüm Kaan ve Tolga ile beraber hakettiğiniz bir hizmeti size sunmaya sabırsızlanıyorum. Görevim ise sitemizdeki işleyişin mali ve idari kısımlarını yönetmekle beraber sizle iletişimde rol almamdır."
+          image="bg-bedirhan"
+        />
+      </div>
     </div>
   );
 };

@@ -6,11 +6,7 @@ import {
   AiOutlineInstagram,
   AiOutlineYoutube,
   AiOutlineMail,
-  AiOutlinePhone,
-  AiFillInstagram,
-  AiFillYoutube,
-  AiFillMail,
-  AiFillPhone,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -42,11 +38,11 @@ const Footer = () => {
           <p className="">yksatlasi@outlook.com</p>
         </a>
         <a
-          href="tel:05518575204"
+          href="https://wa.me/905518575204"
           target="_blank"
           className="flex gap-1 items-center transition-all duration-300 transform hover:scale-105 text-black"
         >
-          <AiOutlinePhone size={30} />
+          <AiOutlineWhatsApp size={30} />
           <p className="">0551 857 52 04</p>
         </a>
       </div>
