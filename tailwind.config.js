@@ -17,6 +17,7 @@ module.exports = {
         muzaffer: "url('/images/muzaffer.jpg')",
         mehmetoguz: "url('/images/mehmet oguz.jpg')",
         zulal: "url('/images/zülal.jpg')",
+        yunusemre: "url('/images/yunusemre.jpg')",
       },
     },
   },

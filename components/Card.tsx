@@ -13,6 +13,7 @@ interface CardProps {
   image: string;
   founder?: boolean;
   full?: boolean;
+  docLink?: string;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -25,6 +26,7 @@ const Card: React.FC<CardProps> = ({
   department,
   founder = false,
   full = false,
+  docLink,
 }) => {
   return (
     <div className="rounded-3xl w-11/12 xl:w-fit p-6 flex flex-col gap-1 items-center shadow-2xl xl:col-span-4 col-span-12">
@@ -44,9 +46,18 @@ const Card: React.FC<CardProps> = ({
         </h3>
       )}
       {!founder && <h3 className="text-lg">Aylık ücret: {price}₺</h3>}
-      <div className="py-4 md:w-96 flex items-center justify-center">
+      <div className="pt-4 pb-2 md:w-96 flex items-center justify-center">
         <p className="text-base font-light text-center">{description}</p>
       </div>
+      {!founder && docLink && (
+        <a
+          href={docLink}
+          target="_blank"
+          className="text-base font-light underline mb-4"
+        >
+          YKS Sonuç belgesi için tıklayınız
+        </a>
+      )}
       {!founder && !full && (
         <Link
           href="/iletisim?konu=kocluk"

@@ -6,6 +6,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import contactImg from "@/public/images/contact.svg";
 import emailjs from "@emailjs/browser";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
 const Iletisim = () => {
   const params = useSearchParams();
@@ -66,7 +67,7 @@ const Iletisim = () => {
   };
 
   return (
-    <div className="w-full flex items-center justify-center pt-20 md:flex-row md:gap-32 flex-col">
+    <div className="w-full flex items-center justify-center pt-20 md:flex-row md:gap-32 flex-col md:mt-4">
       <Image
         alt="iletisim"
         src={contactImg}
@@ -74,69 +75,81 @@ const Iletisim = () => {
         height={700}
         className="rounded-3xl -mt-8"
       />
-      <form
-        ref={form}
-        onSubmit={handleSubmit}
-        className="bg-green-400 p-8 flex flex-col gap-4 rounded-3xl text-lg md:w-96 w-80"
-      >
-        <input
-          type="text"
-          name="name"
-          placeholder="İsim Soyisim"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          className="py-2 px-4 rounded-md"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="E-posta"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          className="py-2 px-4 rounded-md"
-        />
-        <input
-          type="tel"
-          name="phone"
-          placeholder="0 5** *** ** **"
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-          className="py-2 px-4 rounded-md"
-        />
-        <select
-          name="subject"
-          id="subject"
-          value={subject}
-          onChange={(e) => setSubject(e.target.value)}
-          className="py-2 px-4 rounded-md"
+      <div className="flex flex-col gap-4">
+        <form
+          ref={form}
+          onSubmit={handleSubmit}
+          className="bg-green-400 p-8 flex flex-col gap-4 rounded-3xl text-lg md:w-96 w-80"
         >
-          <option value="" disabled>
-            Lütfen bir konu seçin
-          </option>
-          <option value="Koçluk almak istiyorum">Koçluk almak istiyorum</option>
-          <option value="Bilgi almak istiyorum">Bilgi almak istiyorum</option>
-          <option value="Aranıza katılmak istiyorum">
-            Aranıza katılmak istiyorum
-          </option>
-          <option value="Diğer">Diğer</option>
-        </select>
-        <textarea
-          name="message"
-          id="message"
-          cols={30}
-          rows={8}
-          placeholder="Mesajınız"
-          value={message}
-          onChange={(e) => setmessage(e.target.value)}
-          className="rounded-md py-2 px-4 font-light"
-        ></textarea>
-        <button
-          type="submit"
-          className="p-4 rounded-md bg-green-100 text-xl transition-all duration-300 transform hover:scale-105"
+          <input
+            type="text"
+            name="name"
+            placeholder="İsim Soyisim"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="py-2 px-4 rounded-md"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="E-posta"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="py-2 px-4 rounded-md"
+          />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="0 5** *** ** **"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            className="py-2 px-4 rounded-md"
+          />
+          <select
+            name="subject"
+            id="subject"
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
+            className="py-2 px-4 rounded-md"
+          >
+            <option value="" disabled>
+              Lütfen bir konu seçin
+            </option>
+            <option value="Koçluk almak istiyorum">
+              Koçluk almak istiyorum
+            </option>
+            <option value="Bilgi almak istiyorum">Bilgi almak istiyorum</option>
+            <option value="Aranıza katılmak istiyorum">
+              Aranıza katılmak istiyorum
+            </option>
+            <option value="Diğer">Diğer</option>
+          </select>
+          <textarea
+            name="message"
+            id="message"
+            cols={30}
+            rows={8}
+            placeholder="Mesajınız"
+            value={message}
+            onChange={(e) => setmessage(e.target.value)}
+            className="rounded-md py-2 px-4 font-light"
+          ></textarea>
+          <button
+            type="submit"
+            className="p-4 rounded-md bg-green-100 text-xl transition-all duration-300 transform hover:scale-105"
+          >
+            Gönder
+          </button>
+        </form>
+        <a
+          href="https://wa.me/905518575204"
+          target="_blank"
+          className="flex gap-1 items-center justify-center transition-all duration-300 transform hover:scale-105 text-black text-xl"
         >
-          Gönder
-        </button>
-      </form>
+          <AiOutlineWhatsApp size={40} />
+          <p className="">Whatsapp Destek Hattımız</p>
+        </a>
+      </div>
     </div>
   );
 };

@@ -16,7 +16,7 @@ const Footer = () => {
         <a
           href="https://www.youtube.com/@mkaanguney"
           target="_blank"
-          className="flex gap-1 items-center transition-all duration-300 transform hover:scale-105 text-red-500"
+          className="flex gap-1 items-center transition-all duration-300 transform hover:scale-105 text-black"
         >
           <AiOutlineYoutube size={30} />
           <p className="">Youtube</p>
@@ -24,7 +24,7 @@ const Footer = () => {
         <a
           href="https://www.instagram.com/yks_atlasi/"
           target="_blank"
-          className="flex gap-1 items-center transition-all duration-300 transform hover:scale-105 text-blue-600"
+          className="flex gap-1 items-center transition-all duration-300 transform hover:scale-105 text-black"
         >
           <AiOutlineInstagram size={30} />
           <p className="">Instagram</p>
@@ -43,7 +43,7 @@ const Footer = () => {
           className="flex gap-1 items-center transition-all duration-300 transform hover:scale-105 text-black"
         >
           <AiOutlineWhatsApp size={30} />
-          <p className="">0551 857 52 04</p>
+          <p className="">0551 857 5204</p>
         </a>
       </div>
       <div className="flex gap-4 flex-col md:flex-row">
