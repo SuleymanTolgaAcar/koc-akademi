@@ -37,7 +37,7 @@ const Kocluk = () => {
             rating={0}
             description="Ben Musa Kaan. YKS 2021’de sayısal alanında Türkiye 173.sü oldum ve Hacettepe Tıp(İngilizce) bölümünü kazandım. Sonrasında Hacettepe’de hazırlık eğitiminden sonra Boğaziçi Üniversitesi Bilgisayar Mühendisliği bölümüne yatay geçiş yaptım. YKS sürecinde de her türlü deneyim ile karşılaşmış biri olarak bu bilgilerimi size aktarmak ve sizlere zamanı daha efektif kullanmanız için yol göstermek amacıyla koçluk vererek yanınızda olmak istedim."
             image="bg-kaan"
-            docLink="https://drive.google.com/file/d/1d-Dh4ycYk8iVVHA5u2foMIHD8gGcojZh/view?usp=drive_link"
+            docLink="https://drive.google.com/file/d/197GaYXGZaRTLDp2NJrMu_3fy5EvmgzgU/view?usp=drive_link"
             full
           />
           <Card
@@ -48,6 +48,7 @@ const Kocluk = () => {
             rating={0}
             description="Merhabalar, ben N. Zülal İlhan. 2021 YKS eşit ağırlık 601.siyim, boğaziçi üniversitesi ekonomi bölümü 2.sınıf öğrenciyisiyim. Sınav senesinde düzenli çalışma, program hazırlama, konu-deneme takibi ve benzeri birçok konuda yardımcı olmak isterim."
             image="bg-zulal"
+            docLink=""
           />
           <Card
             name="Yunus Emre Korkmaz"

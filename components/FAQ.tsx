@@ -18,7 +18,7 @@ const FAQ = () => {
             actives={actives}
             setActives={setActives}
             index={0}
-            question="Yks koçu size ne yönden yardımcı olur?"
+            question="YKS koçu size ne yönden yardımcı olur?"
             answer="YKS koçu, sınav sürecinizde hedefinize adım adım ilerlerken sizin yanınızda olacak kişidir. Bu birliktelik sizin ders çalışma rutininizi en doğru şekilde ayarlamanızı ve sınav senesini en etkin şekilde değerlendirmenizi sağlarken piskolojik olarak da sorunsuz bir sınav dönemi geçirmenizde büyük rol oynar."
           />
           <Question
