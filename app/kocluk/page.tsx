@@ -37,6 +37,7 @@ const Kocluk = () => {
             rating={0}
             description="Ben Musa Kaan. YKS 2021’de sayısal alanında Türkiye 173.sü oldum ve Hacettepe Tıp(İngilizce) bölümünü kazandım. Sonrasında Hacettepe’de hazırlık eğitiminden sonra Boğaziçi Üniversitesi Bilgisayar Mühendisliği bölümüne yatay geçiş yaptım. YKS sürecinde de her türlü deneyim ile karşılaşmış biri olarak bu bilgilerimi size aktarmak ve sizlere zamanı daha efektif kullanmanız için yol göstermek amacıyla koçluk vererek yanınızda olmak istedim."
             image="bg-kaan"
+            docLink="https://drive.google.com/file/d/1d-Dh4ycYk8iVVHA5u2foMIHD8gGcojZh/view?usp=drive_link"
             full
           />
           <Card

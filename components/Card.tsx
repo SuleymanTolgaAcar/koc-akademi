@@ -55,7 +55,7 @@ const Card: React.FC<CardProps> = ({
           target="_blank"
           className="text-base font-light underline mb-4"
         >
-          YKS Sonuç belgesi için tıklayınız
+          YKS sonuç belgesi için tıklayınız
         </a>
       )}
       {!founder && !full && (
