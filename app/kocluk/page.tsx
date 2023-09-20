@@ -48,7 +48,7 @@ const Kocluk = () => {
             rating={0}
             description="Merhabalar, ben N. Zülal İlhan. 2021 YKS eşit ağırlık 601.siyim, boğaziçi üniversitesi ekonomi bölümü 2.sınıf öğrenciyisiyim. Sınav senesinde düzenli çalışma, program hazırlama, konu-deneme takibi ve benzeri birçok konuda yardımcı olmak isterim."
             image="bg-zulal"
-            docLink=""
+            docLink="https://drive.google.com/file/d/1lw3LKPDPxLwpvylnmJ33ieL87kasGdC9/view?usp=drive_link"
           />
           <Card
             name="Yunus Emre Korkmaz"
@@ -80,28 +80,6 @@ const Kocluk = () => {
             description="Ben Mehmet Oğuz Kocadere, 20 yaşındayım. Hacettepe Bilgisayar Mühendisliği 2. Sınıf öğrencisiyim. YKS’ de sayısal 2881 sıralama yaparak bu okulu kazandım. Bunun için en çok bana katkı sağlayan alanlar AYT matematik, biyoloji ve kimya netlerim oldu ve kendime bu alanlarda güveniyorum. Bu yolda ilerlerken kullandığım yöntemleri anlatmaya ve aklınıza takılan sorularda yardım etmeye ve rehberiniz olmaya hazırım. "
             image="bg-mehmetoguz"
             docLink="https://drive.google.com/file/d/1TbENzq6GMfhqHTEaCCcIZKLfufyeirBJ/view?usp=sharing"
-          />
-          <Card
-            name="Ali Yılmaz"
-            department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
-            title="Sayısal 10.su"
-            price={500}
-            rating={0}
-            description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-        facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
-        massa luctus augue, quis lacinia nisl velit id lorem."
-            image="/images/man.avif"
-          />
-          <Card
-            name="Ali Yılmaz"
-            department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
-            title="Sayısal 10.su"
-            price={500}
-            rating={0}
-            description="lore ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-        facilisi. Sed euismod, nisl quis tincidunt commodo, nunc 
-        massa luctus augue, quis lacinia nisl velit id lorem."
-            image="/images/man.avif"
           />
         </div>
       </div>
