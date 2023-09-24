@@ -51,6 +51,16 @@ const Kocluk = () => {
             docLink="https://drive.google.com/file/d/16Oil0wCSDS0-FlWCIZo-wWezbh_JBEvN/view?usp=drive_link"
           />
           <Card
+            name="Mehmet Ali özdemir"
+            department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
+            title="Sayısal 327.si"
+            price={750}
+            rating={0}
+            description="Ben Mehmet Ali. YKS 2021’de sayısalda 327. oldum ve Boğaziçi Üniversitesi Bilgisayar Mühendisliği bölümüne yerleştim. 1 yıl hazırlık okudum ve şu an 2.sınıfa geçtim. Mezun olduğum dönemde okulumdan ve dershanemden arkadaşlara yol gösterdim. Aynı zamanda arkadaşlarımın kurduğu bu platformda da sizlere yol göstermek ve sorularınızı çözmek için elimden geleni yapacağım."
+            image="bg-mehmetali"
+            docLink="https://drive.google.com/file/d/1kBzUZ7Z2DaOZZZ1O3ml0R40dQcbyvqcl/view?usp=drive_link"
+          />
+          <Card
             name="Emre Şahin"
             department="Hacettepe Üniversitesi Tıp"
             title="Sayısal 830.su"
