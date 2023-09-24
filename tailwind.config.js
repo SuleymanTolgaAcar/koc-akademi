@@ -11,8 +11,8 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        kaan: "url('/images/kaan2.jpg')",
-        tolga: "url('/images/tolga3.jpg')",
+        kaan: "url('/images/musakaan.jpg')",
+        tolga: "url('/images/tolga.jpg')",
         bedirhan: "url('/images/bedirhan.jpg')",
         muzaffer: "url('/images/muzaffer.jpg')",
         mehmetoguz: "url('/images/mehmetoguz.jpg')",
