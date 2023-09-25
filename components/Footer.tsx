@@ -22,7 +22,7 @@ const Footer = () => {
           <p className="">Youtube</p>
         </a>
         <a
-          href="https://www.instagram.com/yks_atlasi/"
+          href="https://www.instagram.com/yksatlasiniz/"
           target="_blank"
           className="flex gap-1 items-center transition-all duration-300 transform hover:scale-105 text-black"
         >

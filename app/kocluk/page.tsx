@@ -51,7 +51,7 @@ const Kocluk = () => {
             docLink="https://drive.google.com/file/d/16Oil0wCSDS0-FlWCIZo-wWezbh_JBEvN/view?usp=drive_link"
           />
           <Card
-            name="Mehmet Ali özdemir"
+            name="Mehmet Ali Özdemir"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 327.si"
             price={750}
@@ -60,6 +60,16 @@ const Kocluk = () => {
             image="bg-mehmetali"
             docLink="https://drive.google.com/file/d/1kBzUZ7Z2DaOZZZ1O3ml0R40dQcbyvqcl/view?usp=drive_link"
           />
+            <Card
+              name="N. Zülal İlhan"
+              department="Boğaziçi Üniversitesi Ekonomi"
+              title="Eşit Ağırlık 601.si"
+              price={750}
+              rating={0}
+              description="Merhabalar, ben N. Zülal İlhan. 2021 YKS eşit ağırlık 601.siyim, boğaziçi üniversitesi ekonomi bölümü 2.sınıf öğrenciyisiyim. Sınav senesinde düzenli çalışma, program hazırlama, konu-deneme takibi ve benzeri birçok konuda yardımcı olmak isterim."
+              image="bg-zulal"
+              docLink="https://drive.google.com/file/d/1lw3LKPDPxLwpvylnmJ33ieL87kasGdC9/view?usp=drive_link"
+            />
           <Card
             name="Emre Şahin"
             department="Hacettepe Üniversitesi Tıp"
@@ -70,16 +80,6 @@ const Kocluk = () => {
             hazırlanma maratonunda karşılaşılabilecek sorunlar olduğunun farkındayım. Bu yüzden herkesin bir yol göstericiye ihtiyacı olabileceğini düşünüyorum.Bu yüzden buradayım. Yol göstermekte ve sınav maratonunuzu başarılı bir şekilde atlatmanız  için tecrübelerimi sizlere aktarmaktan mutluluk duyarım."
             image="bg-emresahin"
             docLink="https://drive.google.com/file/d/1VK4afPwCrIfHAiDFOj9RO9g0zqTQ4LQ2/view?usp=drive_link"
-          />
-          <Card
-            name="N. Zülal İlhan"
-            department="Boğaziçi Üniversitesi Ekonomi"
-            title="Eşit Ağırlık 601.si"
-            price={750}
-            rating={0}
-            description="Merhabalar, ben N. Zülal İlhan. 2021 YKS eşit ağırlık 601.siyim, boğaziçi üniversitesi ekonomi bölümü 2.sınıf öğrenciyisiyim. Sınav senesinde düzenli çalışma, program hazırlama, konu-deneme takibi ve benzeri birçok konuda yardımcı olmak isterim."
-            image="bg-zulal"
-            docLink="https://drive.google.com/file/d/1lw3LKPDPxLwpvylnmJ33ieL87kasGdC9/view?usp=drive_link"
           />
           <Card
             name="Yunus Emre Korkmaz"
