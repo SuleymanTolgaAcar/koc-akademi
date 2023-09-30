@@ -45,7 +45,7 @@ const Card: React.FC<CardProps> = ({
           {rating}/5
         </h3>
       )}
-      {!founder && <h3 className="text-lg">Aylık ücret: {price}₺</h3>}
+      {!founder && <h3 className="text-lg">{price}₺/ay</h3>}
       <div className="pt-4 pb-2 md:w-96 flex items-center justify-center">
         <p className="text-base font-light text-center">{description}</p>
       </div>
@@ -59,12 +59,13 @@ const Card: React.FC<CardProps> = ({
         </a>
       )}
       {!founder && !full && (
-        <Link
-          href="/iletisim?konu=kocluk"
+        <a
+          href="https://wa.me/905518575204"
+          target="_blank"
           className="mt-auto rounded-full px-8 py-3 bg-green-400 transition-all duration-300 transform hover:scale-110 text-lg"
         >
           İletişime Geç
-        </Link>
+        </a>
       )}
       {full && (
         <div className="mt-auto rounded-full px-8 py-3 bg-red-400 transition-all duration-300 transform hover:scale-110 text-lg cursor-not-allowed">

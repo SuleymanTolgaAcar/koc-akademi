@@ -22,6 +22,8 @@ module.exports = {
         yusufyagci: "url('/images/yusufyagci.jpg')",
         furkancengiz: "url('/images/furkancengiz.jpg')",
         mehmetali: "url('/images/mehmetali.jpg')",
+        musaserkan: "url('/images/musaserkan.jpg')",
+        hasanyigit: "url('/images/hasanyigit.jpg')",
       },
     },
   },

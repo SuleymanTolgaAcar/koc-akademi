@@ -67,12 +67,13 @@ const Navbar: React.FC<NavbarProps> = ({ children }) => {
             Hakkımızda <GiPolarStar size={20} className="md:hidden" />
           </NavButton>
         </div>
-        <Link
-          href="/iletisim"
+        <a
+          href="https://wa.me/905518575204"
+          target="_blank"
           className="rounded-full md:px-8 md:py-3 px-5 py-2 bg-green-400 transition-all duration-300 transform hover:scale-110 text-md md:text-xl md:mr-6 ml-auto md:ml-4 mr-4"
         >
           Bize Ulaşın
-        </Link>
+        </a>
         <button
           onClick={() => {
             setIsMenuOpen((prev) => !prev);

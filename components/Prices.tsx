@@ -3,7 +3,7 @@ import PriceCard from "./PriceCard";
 const Prices = () => {
   return (
     <div>
-      <h1 className="text-4xl text-center mb-16">Fiyatlandırma</h1>
+      <h1 className="text-4xl text-center mb-16">Paketler</h1>
       <div className="flex items-center justify-center gap-8 flex-wrap">
         <PriceCard
           title="1 Aylık"

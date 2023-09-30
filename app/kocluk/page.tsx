@@ -51,6 +51,16 @@ const Kocluk = () => {
             docLink="https://drive.google.com/file/d/16Oil0wCSDS0-FlWCIZo-wWezbh_JBEvN/view?usp=drive_link"
           />
           <Card
+            name="Hasan Yiğit Akıncı"
+            department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
+            title="Sayısal 13.sü"
+            price={750}
+            rating={0}
+            description="Merhaba, ben Hasan. Boğaziçi Üniversitesi'nde Bilgisayar Mühendisliği okuyorum. 2022 yılında sayısalda Türkiye 13.'sü oldum. Bu yolda başarıya ulaşmak için gerekli stratejiler, çalışma azmi ve doğru çalışma yöntemleri hakkında sizlere yardımcı olmak ve çalışma sürecinizi desteklemek için sizlere koçluk yapmak istiyorum."
+            image="bg-hasanyigit"
+            docLink="https://drive.google.com/file/d/1P43snmJAj-N3IL3957X_7sfwNiX2U44R/view?usp=drive_link"
+          />
+          <Card
             name="Mehmet Ali Özdemir"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 327.si"
@@ -121,6 +131,16 @@ const Kocluk = () => {
             description="Merhaba, Ben Yusuf Yağcı. YKS 2021'de SAY 3672.siyim.Şu anda Marmara Üniversitesi Tıp (İngilizce) bölümünde okumaktayım.Bu sürecin içinden geçmiş birisi olarak sizlere nasıl düzenli çalışılır, nelere dikkat edilir, sınav zamanı stratejik konularda sizlere öncü olmak isterim. Birlikte derece yapmaya var mısınız?"
             image="bg-yusufyagci"
             docLink="https://drive.google.com/file/d/1URhSC2Epa61rP58ojhXqW58fdbMTWrvx/view?usp=drive_link"
+          />
+          <Card
+            name="Musa Serkan Bilgi"
+            department="Hacettepe Üniversitesi Hukuk"
+            title="Eşit Ağırlık 4191.si"
+            price={600}
+            rating={0}
+            description="Merhabalar ben Musa Serkan Bilgi (MSB).Yks 2021 de Ea  4191. olarak Ankara Hukuku kazandım.En diplerden gelerek kendime has bilgi ve tecrübelerimle sizlere de yardımcı olmaya çalışacağım.Bu süreçte nelerin yapılmaması gerektiğini tecrübe etmiş birisiyim. Düşük obp ye rağmen nelerin olabileceğinin kanıtı olarak sizlerle olacağım .Bazen ders bazen ders dışı konuşmalarla samimi ve mütevazi bir deneyim geçireceğimizi düşünüyorum."
+            image="bg-musaserkan"
+            docLink="https://drive.google.com/file/d/1z_x5gJFA5wJoT8pnw_Ffi2hfHKi-Co_K/view?usp=drive_link"
           />
         </div>
       </div>

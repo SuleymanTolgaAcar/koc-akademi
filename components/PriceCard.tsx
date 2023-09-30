@@ -29,12 +29,13 @@ const PriceCard: React.FC<PriceCardProps> = ({
           </li>
         ))}
       </ol>
-      <Link
-        href="/iletisim?konu=kocluk"
+      <a
+        href="https://wa.me/905518575204"
+        target="_blank"
         className="rounded-full px-8 py-3 bg-green-400 transition-all duration-300 transform hover:scale-110 text-lg absolute bottom-5"
       >
         İletişime Geç
-      </Link>
+      </a>
     </div>
   );
 };
