@@ -22,7 +22,7 @@ const Kocluk = () => {
             name="Süleyman Tolga Acar"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 253.sü, EA 21.si, Dil 44.sü"
-            price={1000}
+            price={800}
             rating={0}
             description="Ben Tolga, Boğaziçi Bilgisayar Mühendisliği 2. sınıf öğrencisiyim. YKS 2021'de sayısalda 253, YKS 2022'de EA'da 21, dilde 44. oldum. Üniversite sınavını iki defa tecrübe etmiş ve istediği derecelere ulaşmış biri olarak sizlerin de hedeflerinize ulaşabilmenize yardımcı olmak için kurduğumuz bu platformda öğrenci koçu olarak kendim de yer almak istedim."
             image="bg-tolga"
@@ -33,7 +33,7 @@ const Kocluk = () => {
             name="Musa Kaan Güney"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 173.sü"
-            price={1000}
+            price={800}
             rating={0}
             description="Ben Musa Kaan. YKS 2021’de sayısal alanında Türkiye 173.sü oldum ve Hacettepe Tıp(İngilizce) bölümünü kazandım. Sonrasında Hacettepe’de hazırlık eğitiminden sonra Boğaziçi Üniversitesi Bilgisayar Mühendisliği bölümüne yatay geçiş yaptım. YKS sürecinde de her türlü deneyim ile karşılaşmış biri olarak bu bilgilerimi size aktarmak ve sizlere zamanı daha efektif kullanmanız için yol göstermek amacıyla koçluk vererek yanınızda olmak istedim."
             image="bg-kaan"
@@ -101,6 +101,16 @@ const Kocluk = () => {
   "
             image="bg-yunusemre"
             docLink="https://drive.google.com/file/d/1TX1Bj20zE9jlO-0rfaAzQAbh1zFEHzqd/view?usp=sharing"
+          />
+          <Card
+            name="Ayşegül Bağlan"
+            department="İstanbul Üniversitesi Tıp Fakültesi (İngilizce)"
+            title="Sayısal 1901.sı"
+            price={650}
+            rating={0}
+            description="Ben Ayşegül Bağlan, 20 yaşındayım. İstanbul Tıp Fakültesi ingilizce programı 2.sınıf öğrencisiyim. YKS 2021’de sayısalda 1901 sıralama yaptım. YKS sizi hem psikolojik hem fiziksel olarak yorabilecek bir süreç.Tabi ki bu süreci başarıyla tamamlamak mümkün.Bu konuda sizlere elimden geldiğince destek olabilirim.Sınava çalışırken edindiğim tecrübeleri size aktarmak için buradayım."
+            image="bg-aysegul"
+            docLink="https://drive.google.com/file/d/1D9RCEe69jcsnKdCiZD98MGJUfxHqXSkH/view?usp=drive_link"
           />
           <Card
             name="Muzaffer Berke Savaş"

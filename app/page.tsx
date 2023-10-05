@@ -3,6 +3,7 @@
 import FAQ from "@/components/FAQ";
 import Prices from "@/components/Prices";
 import Slider from "@/components/Slider";
+import Team from "@/components/Team";
 import { IoIosArrowDropdown } from "react-icons/io";
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
           <IoIosArrowDropdown size={50} className="animate-bounce" />
         </button>
       </div>
+      <Team />
       <Prices />
       <Slider />
       <FAQ />
