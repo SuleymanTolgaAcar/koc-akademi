@@ -70,16 +70,16 @@ const Kocluk = () => {
             image="bg-mehmetali"
             docLink="https://drive.google.com/file/d/1kBzUZ7Z2DaOZZZ1O3ml0R40dQcbyvqcl/view?usp=drive_link"
           />
-            <Card
-              name="N. Zülal İlhan"
-              department="Boğaziçi Üniversitesi Ekonomi"
-              title="Eşit Ağırlık 601.si"
-              price={750}
-              rating={0}
-              description="Merhabalar, ben N. Zülal İlhan. 2021 YKS eşit ağırlık 601.siyim, boğaziçi üniversitesi ekonomi bölümü 2.sınıf öğrenciyisiyim. Sınav senesinde düzenli çalışma, program hazırlama, konu-deneme takibi ve benzeri birçok konuda yardımcı olmak isterim."
-              image="bg-zulal"
-              docLink="https://drive.google.com/file/d/1lw3LKPDPxLwpvylnmJ33ieL87kasGdC9/view?usp=drive_link"
-            />
+          <Card
+            name="N. Zülal İlhan"
+            department="Boğaziçi Üniversitesi Ekonomi"
+            title="Eşit Ağırlık 601.si"
+            price={750}
+            rating={0}
+            description="Merhabalar, ben N. Zülal İlhan. 2021 YKS eşit ağırlık 601.siyim, boğaziçi üniversitesi ekonomi bölümü 2.sınıf öğrenciyisiyim. Sınav senesinde düzenli çalışma, program hazırlama, konu-deneme takibi ve benzeri birçok konuda yardımcı olmak isterim."
+            image="bg-zulal"
+            docLink="https://drive.google.com/file/d/1lw3LKPDPxLwpvylnmJ33ieL87kasGdC9/view?usp=drive_link"
+          />
           <Card
             name="Emre Şahin"
             department="Hacettepe Üniversitesi Tıp"
@@ -151,6 +151,26 @@ const Kocluk = () => {
             description="Merhabalar ben Musa Serkan Bilgi (MSB).Yks 2021 de Ea  4191. olarak Ankara Hukuku kazandım.En diplerden gelerek kendime has bilgi ve tecrübelerimle sizlere de yardımcı olmaya çalışacağım.Bu süreçte nelerin yapılmaması gerektiğini tecrübe etmiş birisiyim. Düşük obp ye rağmen nelerin olabileceğinin kanıtı olarak sizlerle olacağım .Bazen ders bazen ders dışı konuşmalarla samimi ve mütevazi bir deneyim geçireceğimizi düşünüyorum."
             image="bg-musaserkan"
             docLink="https://drive.google.com/file/d/1z_x5gJFA5wJoT8pnw_Ffi2hfHKi-Co_K/view?usp=drive_link"
+          />
+          <Card
+            name="Abdullah Furkan Arslan"
+            department="Boğaziçi Üniversitesi Endüstri Mühendisliği"
+            title="Sayısal 4381.si"
+            price={600}
+            rating={0}
+            description="Selam arkadaşlar, ben Furkan. Şu an Boğaziçi Üniversitesi'nde Endüstri Mühendisliği bölümünde öğrenim görüyorum. Bu harika üniversitede okumayı uzun bir süre hayal ettim ve eminim ki sizin de hayallerinizdeki bazı üniversiteler vardır. Lise yıllarımda kimya olimpiyatlarına katıldım ve bu nedenle sınav için son yılımda yoğun bir şekilde hazırlık yaptım. Tabi ki, bu başarıyı doğru bir planlama ve kararlılıkla elde ettim. Bu yıl edindiğim birçok deneyimi ve taktiği sizinle paylaşmak ve size sınav sürecinde destek vermek için sabırsızlanıyorum."
+            image="bg-abdullahfurkan"
+            docLink="https://drive.google.com/file/d/1ui_vFgyd0XF-8pgkVAZ9gqkmoAczzCrW/view?usp=drive_link"
+          />
+          <Card
+            name="Nurşah Satılmış"
+            department="Hacettepe Üniversitesi Yapay Zeka Mühendisliği"
+            title="Sayısal 5665.si"
+            price={600}
+            rating={0}
+            description="Merhaba ben Nurşah , 2021 yks sınavında sayısalda 5665. Oldum. Bu sınava ikinci girişimdi.2020 YKS sayısal sıralamam 31339’du. 2021 YKS’ye herhangi bir kurs veya ders almadan kendi çabalarımla hazırlandım ve sıralamamı yükseltmeyi başardım. Sınava hazırlanırken uyguladığım stratejileri ve deneyimlerimi size aktarmak için sabırsızlanıyorum. İddialı olduğum dersler Matematik , Fizik ve Biyoloji."
+            image="bg-nursah"
+            docLink="https://drive.google.com/file/d/1MsLNnZ1v_LdA6Fwgehy3VcGgE9MQGqIF/view?usp=drive_link"
           />
         </div>
       </div>
