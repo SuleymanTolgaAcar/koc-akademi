@@ -144,7 +144,7 @@ const Kocluk = () => {
           />
           <Card
             name="Musa Serkan Bilgi"
-            department="Hacettepe Üniversitesi Hukuk"
+            department="Ankara Üniversitesi Hukuk"
             title="Eşit Ağırlık 4191.si"
             price={600}
             rating={0}
@@ -170,7 +170,7 @@ const Kocluk = () => {
             rating={0}
             description="Merhaba ben Nurşah , 2021 yks sınavında sayısalda 5665. Oldum. Bu sınava ikinci girişimdi.2020 YKS sayısal sıralamam 31339’du. 2021 YKS’ye herhangi bir kurs veya ders almadan kendi çabalarımla hazırlandım ve sıralamamı yükseltmeyi başardım. Sınava hazırlanırken uyguladığım stratejileri ve deneyimlerimi size aktarmak için sabırsızlanıyorum. İddialı olduğum dersler Matematik , Fizik ve Biyoloji."
             image="bg-nursah"
-            docLink="https://drive.google.com/file/d/1MsLNnZ1v_LdA6Fwgehy3VcGgE9MQGqIF/view?usp=drive_link"
+            docLink="https://drive.google.com/file/d/1EtvIUmWcvnUrYcQsKfhBcBUuuj8ElKx2/view?usp=drive_link"
           />
         </div>
       </div>

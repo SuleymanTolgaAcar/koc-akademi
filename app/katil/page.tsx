@@ -16,13 +16,13 @@ const Join = () => {
         anlamına gelir. Siz de bu önemli süreçte yer alarak öğrencilere yol
         gösterebilirsiniz.
       </p>
-      <Link
-        href="/iletisim?konu=katil"
+      <a
+        href="https://wa.me/905518575204"
+        target="_blank"
         className="text-2xl bg-green-400 rounded-full py-4 md:px-32 px-24 transform hover:scale-110 transition duration-300 ease-in-out mt-12 md:-mb-8"
       >
-        {" "}
         İletişime Geç
-      </Link>
+      </a>
     </div>
   );
 };
