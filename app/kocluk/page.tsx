@@ -33,9 +33,9 @@ const Kocluk = () => {
             name="Musa Kaan Güney"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 173.sü"
-            price={800}
+            price={1000}
             rating={0}
-            description="Ben Musa Kaan. YKS 2021’de sayısal alanında Türkiye 173.sü oldum ve Hacettepe Tıp(İngilizce) bölümünü kazandım. Sonrasında Hacettepe’de hazırlık eğitiminden sonra Boğaziçi Üniversitesi Bilgisayar Mühendisliği bölümüne yatay geçiş yaptım. YKS sürecinde de her türlü deneyim ile karşılaşmış biri olarak bu bilgilerimi size aktarmak ve sizlere zamanı daha efektif kullanmanız için yol göstermek amacıyla koçluk vererek yanınızda olmak istedim."
+            description="Ben Musa Kaan. YKS 2021’de sayısal alanında Türkiye 173.sü oldum ve Hacettepe Tıp (İngilizce) bölümünü kazandım. Sonrasında Hacettepe’de hazırlık eğitiminden sonra Boğaziçi Üniversitesi Bilgisayar Mühendisliği bölümüne yatay geçiş yaptım. YKS sürecinde de her türlü deneyim ile karşılaşmış biri olarak bu bilgilerimi size aktarmak ve sizlere zamanı daha efektif kullanmanız için yol göstermek amacıyla koçluk vererek yanınızda olmak istedim."
             image="bg-kaan"
             docLink="https://drive.google.com/file/d/197GaYXGZaRTLDp2NJrMu_3fy5EvmgzgU/view?usp=drive_link"
             full
@@ -81,6 +81,16 @@ const Kocluk = () => {
             docLink="https://drive.google.com/file/d/1lw3LKPDPxLwpvylnmJ33ieL87kasGdC9/view?usp=drive_link"
           />
           <Card
+            name="Şimal Erkök"
+            department="Haceteppe Üniversitesi Tıp (İngilizce)"
+            title="Sayısal 642.si"
+            price={650}
+            rating={0}
+            description="Merhabaaaa✨ Ben Şimal. YKS 2021’de sayısalda 642. oldum ve Hacettepe Tıp (ing) bölümünü tercih ettim. Şu an dönem 2 öğrencisiyim ve hazırlık okudum (best year of my life). Duymuşsunuzdur bizim senemizdeki sınav oldukça zorluydu ama inanın ki çalışan ve gerçekten hazır olan için zor veya kolay sınav hiçbir şeyi etkilemez. Ben öyleydim ve size de deneyimlerimi aktarmak ve bu yolda yanınızda olmak çok isterim. Heyecanla bekliyorummm."
+            image="bg-simalerkok"
+            docLink="https://drive.google.com/file/d/1NrrKk4YrzHsafOhNNk7ktxG9eGgDhbGS/view?usp=drive_link"
+          />
+          <Card
             name="Emre Şahin"
             department="Hacettepe Üniversitesi Tıp"
             title="Sayısal 830.su"
@@ -113,16 +123,6 @@ const Kocluk = () => {
             docLink="https://drive.google.com/file/d/1D9RCEe69jcsnKdCiZD98MGJUfxHqXSkH/view?usp=drive_link"
           />
           <Card
-            name="Muzaffer Berke Savaş"
-            department="Hacettepe Üniversitesi Bilgisayar Mühendisliği"
-            title="Sayısal 2909.su"
-            price={600}
-            rating={0}
-            description="Merhaba! Ben Muzaffer Berke Savaş, 2022 YKS sınavında sayısal alanda Türkiye 2909. oldum. Şu anda aktif olarak Hacettepe Üniversitesi’nde bilgisayar mühendisliği okuyorum. Üniversite sınavına hazırlık konusunda tecrübesi olan bir koçum. Kendi senemde kazandığım tecrübeleri bir sonraki nesil olan sizlere aktarmaktan büyük mutluluk duyuyorum. Bu süreçte çoğu sınav stratejisini, zaman yönetim becerisini, hedefe yönelik net arttırma becerisini kazandırmayı hedefliyorum."
-            image="bg-muzaffer"
-            docLink="https://drive.google.com/file/d/1TXNGofokASBuQmo4BubfqiMajZ4fCc3j/view?usp=sharing"
-          />
-          <Card
             name="Mehmet Oğuz Kocadere"
             department="Hacettepe Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 2881.su"
@@ -131,6 +131,16 @@ const Kocluk = () => {
             description="Ben Mehmet Oğuz Kocadere, 20 yaşındayım. Hacettepe Bilgisayar Mühendisliği 2. Sınıf öğrencisiyim. YKS’ de sayısal 2881 sıralama yaparak bu okulu kazandım. Bunun için en çok bana katkı sağlayan alanlar AYT matematik, biyoloji ve kimya netlerim oldu ve kendime bu alanlarda güveniyorum. Bu yolda ilerlerken kullandığım yöntemleri anlatmaya ve aklınıza takılan sorularda yardım etmeye ve rehberiniz olmaya hazırım."
             image="bg-mehmetoguz"
             docLink="https://drive.google.com/file/d/1TbENzq6GMfhqHTEaCCcIZKLfufyeirBJ/view?usp=sharing"
+          />
+          <Card
+            name="Muzaffer Berke Savaş"
+            department="Hacettepe Üniversitesi Bilgisayar Mühendisliği"
+            title="Sayısal 2909.su"
+            price={600}
+            rating={0}
+            description="Merhaba! Ben Muzaffer Berke Savaş, 2022 YKS sınavında sayısal alanda Türkiye 2909. oldum. Şu anda aktif olarak Hacettepe Üniversitesi’nde bilgisayar mühendisliği okuyorum. Üniversite sınavına hazırlık konusunda tecrübesi olan bir koçum. Kendi senemde kazandığım tecrübeleri bir sonraki nesil olan sizlere aktarmaktan büyük mutluluk duyuyorum. Bu süreçte çoğu sınav stratejisini, zaman yönetim becerisini, hedefe yönelik net arttırma becerisini kazandırmayı hedefliyorum."
+            image="bg-muzaffer"
+            docLink="https://drive.google.com/file/d/1TXNGofokASBuQmo4BubfqiMajZ4fCc3j/view?usp=sharing"
           />
           <Card
             name="Yusuf Yağcı"
@@ -156,11 +166,21 @@ const Kocluk = () => {
             name="Abdullah Furkan Arslan"
             department="Boğaziçi Üniversitesi Endüstri Mühendisliği"
             title="Sayısal 4381.si"
-            price={600}
+            price={650}
             rating={0}
             description="Selam arkadaşlar, ben Furkan. Şu an Boğaziçi Üniversitesi'nde Endüstri Mühendisliği bölümünde öğrenim görüyorum. Bu harika üniversitede okumayı uzun bir süre hayal ettim ve eminim ki sizin de hayallerinizdeki bazı üniversiteler vardır. Lise yıllarımda kimya olimpiyatlarına katıldım ve bu nedenle sınav için son yılımda yoğun bir şekilde hazırlık yaptım. Tabi ki, bu başarıyı doğru bir planlama ve kararlılıkla elde ettim. Bu yıl edindiğim birçok deneyimi ve taktiği sizinle paylaşmak ve size sınav sürecinde destek vermek için sabırsızlanıyorum."
             image="bg-abdullahfurkan"
             docLink="https://drive.google.com/file/d/1ui_vFgyd0XF-8pgkVAZ9gqkmoAczzCrW/view?usp=drive_link"
+          />
+          <Card
+            name="Zeynep Demir"
+            department="Necmettin Erbakan Üniversitesi Meram Tıp"
+            title="Sayısal 4903.sü"
+            price={600}
+            rating={0}
+            description="Merhaba ben Zeynep Demir. YKS 2023 sınavında sayısal alanda 4903. oldum. Necmettin Erbakan üniversitesi Meram tıp fakültesini tercih ettim. Sınava hazırlandığım bu süreçte verimli ve düzenli çalışarak başarıya ulaştım.Hayallerine ulaşmak için yürüdüğün bu yolda sınav yükünü biraz olsun hafifletmek amacıyla sana destek olacağım. Birlikte sana özel haftalık programlar hazırlayarak süreci en güzel şekilde ilerleteceğimize inanıyorum. Çıkacağımız yolun sonunda senin de hayalin olan üniversitede ve bölümde olacağını biliyorum. Deneyimlerimi paylaşarak başarıya ulaşmanda sana destek olmak için buradayım."
+            image="bg-zeynepdemir"
+            docLink="https://drive.google.com/file/d/12k5d9oKTqGfG7ovm2H5o45XgFs2gXuTb/view?usp=drive_link"
           />
           <Card
             name="Nurşah Satılmış"
@@ -171,6 +191,36 @@ const Kocluk = () => {
             description="Merhaba ben Nurşah , 2021 yks sınavında sayısalda 5665. Oldum. Bu sınava ikinci girişimdi.2020 YKS sayısal sıralamam 31339’du. 2021 YKS’ye herhangi bir kurs veya ders almadan kendi çabalarımla hazırlandım ve sıralamamı yükseltmeyi başardım. Sınava hazırlanırken uyguladığım stratejileri ve deneyimlerimi size aktarmak için sabırsızlanıyorum. İddialı olduğum dersler Matematik , Fizik ve Biyoloji."
             image="bg-nursah"
             docLink="https://drive.google.com/file/d/1EtvIUmWcvnUrYcQsKfhBcBUuuj8ElKx2/view?usp=drive_link"
+          />
+          <Card
+            name="Dilem Yaren Keskin"
+            department="Gülhane Tıp Fakültesi"
+            title="Sayısal 8536.si, EA 5278.si"
+            price={550}
+            rating={0}
+            description="Ben Dilem Yaren Keskin. YKS 2022’de Sayısalda 8536. Eşit ağırlıkta 5278. oldum. Ankara’da Gülhane Tıp Fakültesi’nde 2. sınıf öğrencisiyim. 1 sene mezuna kalarak hedefim olan tıp fakültesine girdim. Hem mezun hem de yks psikolojisinden anladığımı düşünüyorum. Tüm bilgi ve deneyimlerimi sizlerle paylaşmak ve size yol göstermek istiyorum. YKS’de derece yapmak bilinçli taktiklerle artık çok kolay."
+            image="bg-dilemyaren"
+            docLink="https://drive.google.com/file/d/1louoZbtQ9qrSUfZPC1Gj7uSKBH5XU2lW/view?usp=drive_link"
+          />
+          <Card
+            name="Yunus Emre Saha"
+            department="Nişantaşı Üniversitesi Tıp Fakültesi (Burslu)"
+            title="TYT 12561.si"
+            price={450}
+            rating={0}
+            description="Adım Yunus Emre Soyadım Saha ilk sonuca girişim olan 2023 YKS de Tyt de 12561. Sayısal alanda 22.704. oldum. Bu sene Nişantaşı Üniversitesi Tıp Fakültesini kazandım(burslu).Son sene açıköğretime geçerek hazırlandım ve tamamen sıfırdan başladım benim için zorlu bir süreçti çok fazla engellerle karşılaştım ve bunları atlatmak benim için kolay olmadı amacım sizin bu süreçte gerek akademik gerek psikolojik sorunlarınızda yanımda olmak bu yüzden koçluk vermek isterim."
+            image="bg-yunusemresaha"
+            docLink="https://drive.google.com/file/d/1KtNd46uSi3GPmwyrpIkUnITz1ZwS5xKL/view?usp=drive_link"
+          />
+          <Card
+            name="Hayrunnisa Özkaya"
+            department="Sivas Cumhuriyet Üniversitesi Tıp Fakültesi"
+            title="Sayısal 19703.sü"
+            price={500}
+            rating={0}
+            description="Ben Nisa, YKS 2023 sayısalda 19k yaptım. Sivas Cumhuriyet Üniversitesi Tıp fakültesine yerleştim. Çocukluk hayalim olan bölümdeyim. Sınav sürecim oldukça zor geçti ama mücadelemi vermekten hiçbir zaman vazgeçmedim. Sınav sürecinin yalnızca ders çalışmaktan ibaret olmadığını bunun aynı zamanda kendimizi tanıdığımız bi süreç olduğunu düşünüyorum. Kendimizi tanıdıkça ne yapmamız gerektiğini daha iyi fark ediyoruz ve daha iyi yol haritaları oluşturup başarıya ulaşıyoruz. Bu süreçte yanınızda olup kendinizi tanımanıza yardımcı olmak,başarınızın bi parçası olmak istiyorum."
+            image="bg-hayrunnisa"
+            docLink="https://drive.google.com/file/d/1mTltEuJ3bduafM8TXhltV0eylVVLj4TM/view?usp=drive_link"
           />
         </div>
       </div>
