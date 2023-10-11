@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --swiper-navigation-color: rgb(34 197 94);
+}
+
 :root,
 html,
 body {

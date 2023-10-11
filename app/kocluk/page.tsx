@@ -213,7 +213,7 @@ const Kocluk = () => {
             docLink="https://drive.google.com/file/d/1KtNd46uSi3GPmwyrpIkUnITz1ZwS5xKL/view?usp=drive_link"
           />
           <Card
-            name="Hayrunnisa Özkaya"
+            name="Nisa Özkaya"
             department="Sivas Cumhuriyet Üniversitesi Tıp Fakültesi"
             title="Sayısal 19703.sü"
             price={500}
