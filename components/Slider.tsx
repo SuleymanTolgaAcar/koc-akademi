@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AiFillYoutube } from "react-icons/ai";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
@@ -11,6 +11,13 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 const Slider = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      setIsMobile(true);
+    }
+  }, []);
+
   const slides = [
     {
       image: "/images/youtube1.jpg",
@@ -28,7 +35,7 @@ const Slider = () => {
       <Swiper
         modules={[Navigation, Pagination, A11y]}
         slidesPerView={1}
-        navigation={window.innerWidth > 768 ? true : false}
+        navigation={!isMobile}
         loop
         pagination={{
           clickable: true,
