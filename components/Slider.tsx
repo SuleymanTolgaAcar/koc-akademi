@@ -20,22 +20,6 @@ const Slider = () => {
       image: "/images/youtube2.jpg",
       link: "https://www.youtube.com/watch?v=6jj2V6YkjY4&t=49s",
     },
-    {
-      image: "/images/youtube1.jpg",
-      link: "https://www.youtube.com/watch?v=CRT-tfOYdZ8&t=27s",
-    },
-    {
-      image: "/images/youtube2.jpg",
-      link: "https://www.youtube.com/watch?v=6jj2V6YkjY4&t=49s",
-    },
-    {
-      image: "/images/youtube1.jpg",
-      link: "https://www.youtube.com/watch?v=CRT-tfOYdZ8&t=27s",
-    },
-    {
-      image: "/images/youtube2.jpg",
-      link: "https://www.youtube.com/watch?v=6jj2V6YkjY4&t=49s",
-    },
   ];
 
   return (
@@ -43,26 +27,30 @@ const Slider = () => {
       <h1 className="text-3xl mt-16">Bizi Youtube'dan Takip Edin</h1>
       <Swiper
         modules={[Navigation, Pagination, A11y]}
-        spaceBetween={50}
         slidesPerView={1}
-        navigation
-        pagination={{ clickable: true }}
+        navigation={window.innerWidth > 768 ? true : false}
+        loop
+        pagination={{
+          clickable: true,
+          dynamicBullets: true,
+        }}
         speed={500}
-        className="w-3/4"
+        className="md:w-3/4 w-11/12"
       >
         {slides.map((slide) => (
-          <SwiperSlide key={slide.image} className="px-16">
+          <SwiperSlide key={slide.image} className="relative md:px-12 py-12">
             <a
               href={slide.link}
               target="_blank"
-              className="flex items-center justify-center py-12 relative group"
+              className="flex items-center justify-center group relative"
             >
-              <img
+              <Image
                 src={slide.image}
                 alt="youtube"
-                className="object-cover h-96 rounded-lg shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out"
+                width={800}
+                height={500}
+                className="rounded-lg shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out"
               />
-              <div className="bg-black absolute top-0 bottom-0 left-0 right-0 opacity-0 group-hover:opacity-25  transition-all duration-300 ease-in-out rounded-lg"></div>
               <AiFillYoutube
                 size={80}
                 className="opacity-0 text-red-600 group-hover:opacity-100 transition-all duration-300 ease-in-out absolute"
