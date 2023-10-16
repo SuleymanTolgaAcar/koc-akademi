@@ -107,10 +107,19 @@ const Kocluk = () => {
             title="Sayısal 1126.sı"
             price={650}
             rating={0}
-            description="Merhaba, ben Yunus. Koç Üniversitesinde bilgisayar mühendisliği okuyorum. Üniversite sınavına hazırlanan öğrencilere koçluk yapmak istiyorum. Neden mi? Çünkü ben de sizin gibi bir zamanlar üniversite hayalini kuran, çok çalışan ve başarılı olan bir öğrenciydim. Üniversite sınavında sayıdal alanda 1126. olarak Türkiye’nin en prestijli üniversitelerinden birine burslu olarak girdim. Bu başarımın arkasında yalnızca çalışkanlık değil, aynı zamanda doğru yöntemler, stratejiler ve motivasyon da vardı. Ben de size bu konularda yardımcı olmak, sizi desteklemek ve yol göstermek istiyorum.
-  "
+            description="Merhaba, ben Yunus. Koç Üniversitesinde bilgisayar mühendisliği okuyorum. Üniversite sınavına hazırlanan öğrencilere koçluk yapmak istiyorum. Neden mi? Çünkü ben de sizin gibi bir zamanlar üniversite hayalini kuran, çok çalışan ve başarılı olan bir öğrenciydim. Üniversite sınavında sayıdal alanda 1126. olarak Türkiye’nin en prestijli üniversitelerinden birine burslu olarak girdim. Bu başarımın arkasında yalnızca çalışkanlık değil, aynı zamanda doğru yöntemler, stratejiler ve motivasyon da vardı. Ben de size bu konularda yardımcı olmak, sizi desteklemek ve yol göstermek istiyorum."
             image="bg-yunusemre"
             docLink="https://drive.google.com/file/d/1TX1Bj20zE9jlO-0rfaAzQAbh1zFEHzqd/view?usp=sharing"
+          />
+          <Card
+            name="Elif İnci Berber"
+            department="Haclik Üniversitesi Tıp"
+            title="Sayısal 1710.su"
+            price={550}
+            rating={0}
+            description="Merhaba ben İnci Hacettepe Tıp 2. Sınıf öğrencisiyim. YKS'de sayısal 1710.su oldum YKS sürecini atlatmış biri olarak sizlere yardımcı olmak ve deneyimlerim doğrultusunda sizlerin hedeflerine ulaşmasında yardım etmek istiyorum bu zorlu süreçte oluşan soru işaretlerinizi gidererek sizlerle kendi yöntemlerimi paylaşarak hedeflerinize ulaşmanıza yardım edeceğim."
+            image="bg-elifinci"
+            docLink="https://drive.google.com/file/d/1_4v6LY4o5wHGFEfg5OCeOlanGzh6rDab/view?usp=drive_link"
           />
           <Card
             name="Ayşegül Bağlan"
