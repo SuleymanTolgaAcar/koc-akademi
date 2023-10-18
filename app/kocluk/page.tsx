@@ -133,7 +133,7 @@ const Kocluk = () => {
           />
           <Card
             name="Aslı Nur Aslan"
-            department="İstanbul Üniversitesi Tıp Fakültesi (İngilizce)"
+            department="Hacettepe Üniversitesi Tıp"
             title="Sayısal 1968.sı"
             price={600}
             rating={0}
