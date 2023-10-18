@@ -42,6 +42,11 @@ const Team = () => {
       image: "/images/emresahin.jpg",
     },
     {
+      name: "Elif İnci Berber",
+      department: "Hacettepe Üniversitesi Tıp",
+      image: "/images/elifinci.jpg",
+    },
+    {
       name: "Abdullah Furkan Arslan",
       department: "Boğaziçi Üniversitesi Endüstri Mühendisliği",
       image: "/images/abdullahfurkan.jpg",
@@ -55,6 +60,11 @@ const Team = () => {
       name: "Furkan Cengiz",
       department: "Boğaziçi Üniversitesi Bilgisayar Mühendisliği",
       image: "/images/furkancengiz.jpg",
+    },
+    {
+      name: "Aslı Nur Aslan",
+      department: "Hacettepe Üniversitesi Tıp",
+      image: "/images/aslinur.jpg",
     },
     {
       name: "Hasan Yiğit Akıncı",
@@ -80,6 +90,11 @@ const Team = () => {
       name: "Şimal Erkök",
       department: "Haceteppe Üniversitesi Tıp (İngilizce)",
       image: "/images/simalerkok.jpg",
+    },
+    {
+      name: "Arda Can Akyüz",
+      department: "İzmir Ekonomi Üniversitesi Tıp Fakültesi",
+      image: "/images/ardacan.jpg",
     },
     {
       name: "Muzaffer Berke Savaş",
@@ -134,7 +149,7 @@ const Team = () => {
                 width={400}
                 height={450}
                 priority
-                className="w-auto h-[450px] object-cover rounded-2xl"
+                className="w-80 h-[450px] object-cover rounded-2xl"
               />
               <div className="absolute bottom-0 left-0 right-0 top-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 rounded-2xl transition-all duration-300 ease-in-out"></div>
               <div className="absolute bottom-5 left-0 right-0 z-10 hidden group-hover:block text-white text-center transition-all duration-300 ease-in-out">

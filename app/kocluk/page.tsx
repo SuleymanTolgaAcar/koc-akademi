@@ -113,7 +113,7 @@ const Kocluk = () => {
           />
           <Card
             name="Elif İnci Berber"
-            department="Haclik Üniversitesi Tıp"
+            department="Hacettepe Üniversitesi Tıp"
             title="Sayısal 1710.su"
             price={550}
             rating={0}
@@ -130,6 +130,16 @@ const Kocluk = () => {
             description="Ben Ayşegül Bağlan, 20 yaşındayım. İstanbul Tıp Fakültesi ingilizce programı 2.sınıf öğrencisiyim. YKS 2021’de sayısalda 1901 sıralama yaptım. YKS sizi hem psikolojik hem fiziksel olarak yorabilecek bir süreç.Tabi ki bu süreci başarıyla tamamlamak mümkün.Bu konuda sizlere elimden geldiğince destek olabilirim.Sınava çalışırken edindiğim tecrübeleri size aktarmak için buradayım."
             image="bg-aysegul"
             docLink="https://drive.google.com/file/d/1D9RCEe69jcsnKdCiZD98MGJUfxHqXSkH/view?usp=drive_link"
+          />
+          <Card
+            name="Aslı Nur Aslan"
+            department="İstanbul Üniversitesi Tıp Fakültesi (İngilizce)"
+            title="Sayısal 1968.sı"
+            price={600}
+            rating={0}
+            description="Merhaba ben Aslı YKS 2022'de sayısal da 1968. oldum ve hedefim olan tıp fakültesine yerleştim. YKS sürecinin ne kadar zorlu olabileceğini biliyorum ancak doğru çalışma ve azimle bu süreci başarıyla  atlatılabileceğini de biliyorum. Sizlere de bu yolda rehberlik ederek hedeflerinize ulaşmanıza yardımcı olmak isterim."
+            image="bg-aslinur"
+            docLink="https://drive.google.com/file/d/1wIZcUamZm2B25EMilPlczqsfdMxP9f-v/view?usp=share_link"
           />
           <Card
             name="Mehmet Oğuz Kocadere"
@@ -230,6 +240,16 @@ const Kocluk = () => {
             description="Ben Nisa, YKS 2023 sayısalda 19k yaptım. Sivas Cumhuriyet Üniversitesi Tıp fakültesine yerleştim. Çocukluk hayalim olan bölümdeyim. Sınav sürecim oldukça zor geçti ama mücadelemi vermekten hiçbir zaman vazgeçmedim. Sınav sürecinin yalnızca ders çalışmaktan ibaret olmadığını bunun aynı zamanda kendimizi tanıdığımız bi süreç olduğunu düşünüyorum. Kendimizi tanıdıkça ne yapmamız gerektiğini daha iyi fark ediyoruz ve daha iyi yol haritaları oluşturup başarıya ulaşıyoruz. Bu süreçte yanınızda olup kendinizi tanımanıza yardımcı olmak,başarınızın bi parçası olmak istiyorum."
             image="bg-hayrunnisa"
             docLink="https://drive.google.com/file/d/1mTltEuJ3bduafM8TXhltV0eylVVLj4TM/view?usp=drive_link"
+          />
+          <Card
+            name="Arda Can Akyüz"
+            department="İzmir Ekonomi Üniversitesi Tıp Fakültesi"
+            title="Sayısal 27103.sü"
+            price={550}
+            rating={0}
+            description="Merhabalar ben Stj. Dr. Arda Can Akyüz. İzmir Ekonomi Üniversitesi Tıp Fakültesi 4.Sınıf öğrencisiyim. 2020 YKS Sayısal’da 27.103’üncü olarak tıp fakültesine yerleştim. 2021 yılından beri de okulumda mentörlük ve Dünya Sağlık Örgütü tarafından tanınan Uluslararası bir organizasyon çapında Akran Eğitmenliği yapıyorum. Bu eğitmenlik kapsamında öğrenim metodları, stres yönetimi, zaman yönetimi gibi pek çok konuda tecrübeli olmakla beraber +30 saat kadar bir eğitim tecrübem ve yaklaşık 200 eğittim kişi bulunmaktadır. Sizlere hem kendi YKS senemden edindiğim tecrübelerim hem de eğitmenlik tecrübelerim aracılığıyla yardım etmek için buradayım."
+            image="bg-ardacan"
+            docLink="https://drive.google.com/file/d/15AmhrgE9mEcgWpXxMgxp3KNSbYQiorTZ/view?usp=share_link"
           />
         </div>
       </div>
