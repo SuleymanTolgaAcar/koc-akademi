@@ -67,6 +67,11 @@ const Team = () => {
       image: "/images/aslinur.jpg",
     },
     {
+      name: "Meriç Kızıltaş",
+      department: "Boğaziçi Üniversitesi Bilgisayar Mühendisliği",
+      image: "/images/meric.jpg",
+    },
+    {
       name: "Hasan Yiğit Akıncı",
       department: "Boğaziçi Üniversitesi Bilgisayar Mühendisliği",
       image: "/images/hasanyigit.jpg",

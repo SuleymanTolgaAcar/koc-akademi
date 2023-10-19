@@ -35,6 +35,7 @@ module.exports = {
         elifinci: "url('/images/elifinci.jpg')",
         ardacan: "url('/images/ardacan.jpg')",
         aslinur: "url('/images/aslinur.jpg')",
+        meric: "url('/images/meric.jpg')",
       },
     },
   },

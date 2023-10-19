@@ -61,6 +61,16 @@ const Kocluk = () => {
             docLink="https://drive.google.com/file/d/1P43snmJAj-N3IL3957X_7sfwNiX2U44R/view?usp=drive_link"
           />
           <Card
+            name="Meriç Kızıltaş"
+            department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
+            title="TYT 39.su, Sayısal 52.si"
+            price={750}
+            rating={0}
+            description="Merhaba, ben Meriç Kızıltaş. İzmir Fen Lisesinden 2022 yılında mezun oldum. 2022 YKS'de TYT'de 39. Sayısal alanında 52. olarak Boğaziçi Üniversitesi Bilgisayar Mühendisliği bölümüne yerleştim. Hazırlık eğitimimi aldım ve şu anda 1. sınıf öğrencisiyim. YKS sürecinde sizin de karşılaşacağınız zorlukları başarıyla aşmış biri olarak bu sürecinizde sizin de başarıya ulaşmanız için sizlere koçluk yapmak için buradayım."
+            image="bg-meric"
+            docLink="https://drive.google.com/file/d/1h9IocVC3OvMInY4hI03laMac7FjL7jC1/view?usp=share_link"
+          />
+          <Card
             name="Mehmet Ali Özdemir"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="Sayısal 327.si"
