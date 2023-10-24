@@ -64,7 +64,7 @@ const Kocluk = () => {
             name="Meriç Kızıltaş"
             department="Boğaziçi Üniversitesi Bilgisayar Mühendisliği"
             title="TYT 39.su, Sayısal 52.si"
-            price={750}
+            price={700}
             rating={0}
             description="Merhaba, ben Meriç Kızıltaş. İzmir Fen Lisesinden 2022 yılında mezun oldum. 2022 YKS'de TYT'de 39. Sayısal alanında 52. olarak Boğaziçi Üniversitesi Bilgisayar Mühendisliği bölümüne yerleştim. Hazırlık eğitimimi aldım ve şu anda 1. sınıf öğrencisiyim. YKS sürecinde sizin de karşılaşacağınız zorlukları başarıyla aşmış biri olarak bu sürecinizde sizin de başarıya ulaşmanız için sizlere koçluk yapmak için buradayım."
             image="bg-meric"
@@ -120,6 +120,16 @@ const Kocluk = () => {
             description="Merhaba, ben Yunus. Koç Üniversitesinde bilgisayar mühendisliği okuyorum. Üniversite sınavına hazırlanan öğrencilere koçluk yapmak istiyorum. Neden mi? Çünkü ben de sizin gibi bir zamanlar üniversite hayalini kuran, çok çalışan ve başarılı olan bir öğrenciydim. Üniversite sınavında sayıdal alanda 1126. olarak Türkiye’nin en prestijli üniversitelerinden birine burslu olarak girdim. Bu başarımın arkasında yalnızca çalışkanlık değil, aynı zamanda doğru yöntemler, stratejiler ve motivasyon da vardı. Ben de size bu konularda yardımcı olmak, sizi desteklemek ve yol göstermek istiyorum."
             image="bg-yunusemre"
             docLink="https://drive.google.com/file/d/1TX1Bj20zE9jlO-0rfaAzQAbh1zFEHzqd/view?usp=sharing"
+          />
+          <Card
+            name="Emine Aslı Şahin"
+            department="Cerrahpaşa Tıp Fakültesi"
+            title="Sayısal 1138.sı"
+            price={700}
+            rating={0}
+            description="Selam, ben Emine Aslı. Ülkenin en iyi tıp fakültelerinden olan Cerrahpaşa Tıp'ta 2.sınıfım. 2022 yılında YKS sayısal Türkiye 1138.'si oldum. Bu başarımı nasıl çalışmam gerektiğini bilmeme ve motivasyonumu diri tutmamı sağlayan çevreme borçluyum. Ben de koçluk yaparak başarı yolunda sizin yanınızda olmak istiyorum."
+            image="bg-emineasli"
+            docLink="https://drive.google.com/file/d/1yN98ThAQA1QLDkkbOrAOP13xuksmpp7g/view?usp=drive_link"
           />
           <Card
             name="Elif İnci Berber"
